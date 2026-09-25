@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data (never commit raw or processed data)
+data/*
+!data/README.md
+outputs/
+processed_local/
+local_run/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials (never commit these; they should never exist in this repo anyway)
+.aws/
+*.pem
+.env
