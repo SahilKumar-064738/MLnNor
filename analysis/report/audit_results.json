@@ -1,0 +1,4932 @@
+{
+  "s1_name_collisions": {
+    "raw": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1539229,
+      "collapse_pct": 30.25,
+      "collision_groups": 177793,
+      "rows_in_collisions": 845385,
+      "rows_in_collisions_pct": 38.31,
+      "max_group_size": 253,
+      "top_groups": [
+        {
+          "value": "Primary Care Group",
+          "size": 253,
+          "sample_raw": [
+            "Primary Care Group"
+          ]
+        },
+        {
+          "value": "Ear Nose & Throat Group",
+          "size": 251,
+          "sample_raw": [
+            "Ear Nose & Throat Group"
+          ]
+        },
+        {
+          "value": "Pediatric Group",
+          "size": 222,
+          "sample_raw": [
+            "Pediatric Group"
+          ]
+        },
+        {
+          "value": "Womens Health Group",
+          "size": 220,
+          "sample_raw": [
+            "Womens Health Group"
+          ]
+        },
+        {
+          "value": "Physical Therapy Group",
+          "size": 218,
+          "sample_raw": [
+            "Physical Therapy Group"
+          ]
+        },
+        {
+          "value": "Pediatric Dental Group",
+          "size": 216,
+          "sample_raw": [
+            "Pediatric Dental Group"
+          ]
+        },
+        {
+          "value": "Behavioral Health Group",
+          "size": 215,
+          "sample_raw": [
+            "Behavioral Health Group"
+          ]
+        },
+        {
+          "value": "Chiropractic Group",
+          "size": 209,
+          "sample_raw": [
+            "Chiropractic Group"
+          ]
+        },
+        {
+          "value": "Orthopedic Group",
+          "size": 208,
+          "sample_raw": [
+            "Orthopedic Group"
+          ]
+        },
+        {
+          "value": "Eye Group",
+          "size": 207,
+          "sample_raw": [
+            "Eye Group"
+          ]
+        },
+        {
+          "value": "Dental Group",
+          "size": 205,
+          "sample_raw": [
+            "Dental Group"
+          ]
+        },
+        {
+          "value": "Family Group",
+          "size": 204,
+          "sample_raw": [
+            "Family Group"
+          ]
+        }
+      ]
+    },
+    "norm_current": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1538800,
+      "collapse_pct": 30.27,
+      "collision_groups": 178082,
+      "rows_in_collisions": 846103,
+      "rows_in_collisions_pct": 38.34,
+      "max_group_size": 253,
+      "top_groups": [
+        {
+          "value": "primary care group",
+          "size": 253,
+          "sample_raw": [
+            "Primary Care Group"
+          ]
+        },
+        {
+          "value": "ear nose & throat group",
+          "size": 251,
+          "sample_raw": [
+            "Ear Nose & Throat Group"
+          ]
+        },
+        {
+          "value": "pediatric group",
+          "size": 222,
+          "sample_raw": [
+            "Pediatric Group"
+          ]
+        },
+        {
+          "value": "womens health group",
+          "size": 220,
+          "sample_raw": [
+            "Womens Health Group"
+          ]
+        },
+        {
+          "value": "physical therapy group",
+          "size": 218,
+          "sample_raw": [
+            "Physical Therapy Group"
+          ]
+        },
+        {
+          "value": "pediatric dental group",
+          "size": 216,
+          "sample_raw": [
+            "Pediatric Dental Group"
+          ]
+        },
+        {
+          "value": "behavioral health group",
+          "size": 215,
+          "sample_raw": [
+            "Behavioral Health Group"
+          ]
+        },
+        {
+          "value": "chiropractic group",
+          "size": 209,
+          "sample_raw": [
+            "Chiropractic Group"
+          ]
+        },
+        {
+          "value": "orthopedic group",
+          "size": 208,
+          "sample_raw": [
+            "Orthopedic Group"
+          ]
+        },
+        {
+          "value": "eye group",
+          "size": 207,
+          "sample_raw": [
+            "Eye Group"
+          ]
+        },
+        {
+          "value": "dental group",
+          "size": 205,
+          "sample_raw": [
+            "Dental Group"
+          ]
+        },
+        {
+          "value": "family group",
+          "size": 204,
+          "sample_raw": [
+            "Family Group"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1515051,
+      "collapse_pct": 31.35,
+      "collision_groups": 179963,
+      "rows_in_collisions": 871733,
+      "rows_in_collisions_pct": 39.5,
+      "max_group_size": 253,
+      "top_groups": [
+        {
+          "value": "primary care group",
+          "size": 253,
+          "sample_raw": [
+            "Primary Care Group"
+          ]
+        },
+        {
+          "value": "ear nose and throat group",
+          "size": 251,
+          "sample_raw": [
+            "Ear Nose & Throat Group"
+          ]
+        },
+        {
+          "value": "pediatric group",
+          "size": 222,
+          "sample_raw": [
+            "Pediatric Group"
+          ]
+        },
+        {
+          "value": "womens health group",
+          "size": 220,
+          "sample_raw": [
+            "Womens Health Group"
+          ]
+        },
+        {
+          "value": "physical therapy group",
+          "size": 218,
+          "sample_raw": [
+            "Physical Therapy Group"
+          ]
+        },
+        {
+          "value": "pediatric dental group",
+          "size": 216,
+          "sample_raw": [
+            "Pediatric Dental Group"
+          ]
+        },
+        {
+          "value": "behavioral health group",
+          "size": 215,
+          "sample_raw": [
+            "Behavioral Health Group"
+          ]
+        },
+        {
+          "value": "chiropractic group",
+          "size": 209,
+          "sample_raw": [
+            "Chiropractic Group"
+          ]
+        },
+        {
+          "value": "orthopedic group",
+          "size": 208,
+          "sample_raw": [
+            "Orthopedic Group"
+          ]
+        },
+        {
+          "value": "eye group",
+          "size": 207,
+          "sample_raw": [
+            "Eye Group"
+          ]
+        },
+        {
+          "value": "dental group",
+          "size": 205,
+          "sample_raw": [
+            "Dental Group"
+          ]
+        },
+        {
+          "value": "family group",
+          "size": 204,
+          "sample_raw": [
+            "Family Group"
+          ]
+        }
+      ]
+    },
+    "no_suffix": {
+      "rows_nonempty": 2206817,
+      "unique_values": 1349975,
+      "collapse_pct": 38.83,
+      "collision_groups": 200215,
+      "rows_in_collisions": 1057057,
+      "rows_in_collisions_pct": 47.9,
+      "max_group_size": 499,
+      "top_groups": [
+        {
+          "value": "meridian",
+          "size": 499,
+          "sample_raw": [
+            "Meridian",
+            "Meridian Inc",
+            "Meridian LLC",
+            "Meridian Inc.",
+            "Meridian PLLC"
+          ]
+        },
+        {
+          "value": "cedar",
+          "size": 325,
+          "sample_raw": [
+            "Cedar Inc",
+            "Cedar LLC",
+            "Cedar",
+            "Cedar Inc.",
+            "Cedar PLLC"
+          ]
+        },
+        {
+          "value": "summit",
+          "size": 312,
+          "sample_raw": [
+            "Summit LLC",
+            "Summit Inc",
+            "Summit",
+            "Summit PLLC",
+            "Summit Corp"
+          ]
+        },
+        {
+          "value": "ear nose & throat group",
+          "size": 306,
+          "sample_raw": [
+            "Ear Nose & Throat Group LLC",
+            "Ear Nose & Throat Group",
+            "Ear Nose & Throat Group PC",
+            "Ear Nose & Throat Group PLLC",
+            "Ear Nose & Throat Group Inc"
+          ]
+        },
+        {
+          "value": "helios",
+          "size": 298,
+          "sample_raw": [
+            "Helios",
+            "Helios LLC",
+            "Helios Co",
+            "Helios Corporation",
+            "Helios Inc."
+          ]
+        },
+        {
+          "value": "family center",
+          "size": 296,
+          "sample_raw": [
+            "Family Center",
+            "Family Center LLC",
+            "Family Center PC",
+            "Family Center PLLC",
+            "Family Center Inc"
+          ]
+        },
+        {
+          "value": "cascade",
+          "size": 295,
+          "sample_raw": [
+            "Cascade",
+            "Cascade Inc.",
+            "Cascade Inc",
+            "Cascade LLC",
+            "Cascade Limited Inc"
+          ]
+        },
+        {
+          "value": "lynx",
+          "size": 293,
+          "sample_raw": [
+            "Lynx Inc",
+            "Lynx LLC",
+            "Lynx",
+            "Lynx PC",
+            "Lynx Inc."
+          ]
+        },
+        {
+          "value": "primary care group",
+          "size": 289,
+          "sample_raw": [
+            "Primary Care Group",
+            "Primary Care Group PC",
+            "Primary Care Group Inc.",
+            "Primary Care Group PLLC",
+            "Primary Care Group Inc"
+          ]
+        },
+        {
+          "value": "granite",
+          "size": 287,
+          "sample_raw": [
+            "Granite",
+            "Granite LLC",
+            "Granite Corporation",
+            "Granite Inc",
+            "Granite Inc."
+          ]
+        },
+        {
+          "value": "amber",
+          "size": 283,
+          "sample_raw": [
+            "Amber",
+            "Amber LLC",
+            "Amber Inc",
+            "Amber PC",
+            "Amber Co"
+          ]
+        },
+        {
+          "value": "ember",
+          "size": 282,
+          "sample_raw": [
+            "Ember Inc",
+            "Ember LLC",
+            "Ember",
+            "Ember PLLC",
+            "Ember Corp"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1536893,
+      "collapse_pct": 30.36,
+      "collision_groups": 179266,
+      "rows_in_collisions": 849194,
+      "rows_in_collisions_pct": 38.48,
+      "max_group_size": 253,
+      "top_groups": [
+        {
+          "value": "care group primary",
+          "size": 253,
+          "sample_raw": [
+            "Primary Care Group"
+          ]
+        },
+        {
+          "value": "& ear group nose throat",
+          "size": 251,
+          "sample_raw": [
+            "Ear Nose & Throat Group"
+          ]
+        },
+        {
+          "value": "group pediatric",
+          "size": 222,
+          "sample_raw": [
+            "Pediatric Group"
+          ]
+        },
+        {
+          "value": "group health womens",
+          "size": 220,
+          "sample_raw": [
+            "Womens Health Group"
+          ]
+        },
+        {
+          "value": "group physical therapy",
+          "size": 218,
+          "sample_raw": [
+            "Physical Therapy Group"
+          ]
+        },
+        {
+          "value": "dental group pediatric",
+          "size": 216,
+          "sample_raw": [
+            "Pediatric Dental Group"
+          ]
+        },
+        {
+          "value": "behavioral group health",
+          "size": 215,
+          "sample_raw": [
+            "Behavioral Health Group"
+          ]
+        },
+        {
+          "value": "chiropractic group",
+          "size": 209,
+          "sample_raw": [
+            "Chiropractic Group"
+          ]
+        },
+        {
+          "value": "group orthopedic",
+          "size": 208,
+          "sample_raw": [
+            "Orthopedic Group"
+          ]
+        },
+        {
+          "value": "eye group",
+          "size": 207,
+          "sample_raw": [
+            "Eye Group"
+          ]
+        },
+        {
+          "value": "dental group",
+          "size": 205,
+          "sample_raw": [
+            "Dental Group"
+          ]
+        },
+        {
+          "value": "family group",
+          "size": 204,
+          "sample_raw": [
+            "Family Group"
+          ]
+        }
+      ]
+    }
+  },
+  "s1_address_collisions": {
+    "raw": {
+      "rows_nonempty": 2206821,
+      "unique_values": 2130606,
+      "collapse_pct": 3.45,
+      "collision_groups": 40089,
+      "rows_in_collisions": 116304,
+      "rows_in_collisions_pct": 5.27,
+      "max_group_size": 14,
+      "top_groups": [
+        {
+          "value": "108 Norle Street, College Twp, PA",
+          "size": 14,
+          "sample_raw": [
+            "108 Norle Street, College Twp, PA"
+          ]
+        },
+        {
+          "value": "104 Roadrunner Circle, Elephant Butte, NM",
+          "size": 13,
+          "sample_raw": [
+            "104 Roadrunner Circle, Elephant Butte, NM"
+          ]
+        },
+        {
+          "value": "218 Phillips Street, Storm Lake, IA",
+          "size": 13,
+          "sample_raw": [
+            "218 Phillips Street, Storm Lake, IA"
+          ]
+        },
+        {
+          "value": "43 Franklin Street, Delaware, OH",
+          "size": 13,
+          "sample_raw": [
+            "43 Franklin Street, Delaware, OH"
+          ]
+        },
+        {
+          "value": "55, Lavkush Vihar, Singhpur, Kachhar Bithoor Road, Kalyanpur, Kanpur Nagar, Uttar Pradesh",
+          "size": 13,
+          "sample_raw": [
+            "55, Lavkush Vihar, Singhpur, Kachhar Bithoor Road, Kalyanpur, Kanpur Nagar, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "1921 Willow Park Drive, Fort Worth, TX",
+          "size": 13,
+          "sample_raw": [
+            "1921 Willow Park Drive, Fort Worth, TX"
+          ]
+        },
+        {
+          "value": "43233 Clearnight Terrace, Loudoun County, VA",
+          "size": 12,
+          "sample_raw": [
+            "43233 Clearnight Terrace, Loudoun County, VA"
+          ]
+        },
+        {
+          "value": "4804 Gardenia Avenue, Glendale, AZ",
+          "size": 12,
+          "sample_raw": [
+            "4804 Gardenia Avenue, Glendale, AZ"
+          ]
+        },
+        {
+          "value": "H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Bareilly, Uttar Pradesh",
+          "size": 12,
+          "sample_raw": [
+            "H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Bareilly, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "No. 109, Ferns Meadows, Avalahalli Main Road, Bileshivale, Bangalore North, Bangalore, Karnataka",
+          "size": 12,
+          "sample_raw": [
+            "No. 109, Ferns Meadows, Avalahalli Main Road, Bileshivale, Bangalore North, Bangalore, Karnataka"
+          ]
+        },
+        {
+          "value": "415 Northfield Boulevard, Unit A11, Murfreesboro, TN",
+          "size": 12,
+          "sample_raw": [
+            "415 Northfield Boulevard, Unit A11, Murfreesboro, TN"
+          ]
+        },
+        {
+          "value": "1948 Weaver Forest Way, Morrisville, NC",
+          "size": 12,
+          "sample_raw": [
+            "1948 Weaver Forest Way, Morrisville, NC"
+          ]
+        }
+      ]
+    },
+    "norm_current": {
+      "rows_nonempty": 2206821,
+      "unique_values": 2130606,
+      "collapse_pct": 3.45,
+      "collision_groups": 40089,
+      "rows_in_collisions": 116304,
+      "rows_in_collisions_pct": 5.27,
+      "max_group_size": 14,
+      "top_groups": [
+        {
+          "value": "108 norle street, college twp, pa",
+          "size": 14,
+          "sample_raw": [
+            "108 Norle Street, College Twp, PA"
+          ]
+        },
+        {
+          "value": "104 roadrunner circle, elephant butte, nm",
+          "size": 13,
+          "sample_raw": [
+            "104 Roadrunner Circle, Elephant Butte, NM"
+          ]
+        },
+        {
+          "value": "218 phillips street, storm lake, ia",
+          "size": 13,
+          "sample_raw": [
+            "218 Phillips Street, Storm Lake, IA"
+          ]
+        },
+        {
+          "value": "43 franklin street, delaware, oh",
+          "size": 13,
+          "sample_raw": [
+            "43 Franklin Street, Delaware, OH"
+          ]
+        },
+        {
+          "value": "55, lavkush vihar, singhpur, kachhar bithoor road, kalyanpur, kanpur nagar, uttar pradesh",
+          "size": 13,
+          "sample_raw": [
+            "55, Lavkush Vihar, Singhpur, Kachhar Bithoor Road, Kalyanpur, Kanpur Nagar, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "1921 willow park drive, fort worth, tx",
+          "size": 13,
+          "sample_raw": [
+            "1921 Willow Park Drive, Fort Worth, TX"
+          ]
+        },
+        {
+          "value": "43233 clearnight terrace, loudoun county, va",
+          "size": 12,
+          "sample_raw": [
+            "43233 Clearnight Terrace, Loudoun County, VA"
+          ]
+        },
+        {
+          "value": "4804 gardenia avenue, glendale, az",
+          "size": 12,
+          "sample_raw": [
+            "4804 Gardenia Avenue, Glendale, AZ"
+          ]
+        },
+        {
+          "value": "h. no. 154 - a, veer savarkar nagar, mini bypass road, p/o izzatnagar, bareilly, uttar pradesh",
+          "size": 12,
+          "sample_raw": [
+            "H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Bareilly, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "no. 109, ferns meadows, avalahalli main road, bileshivale, bangalore north, bangalore, karnataka",
+          "size": 12,
+          "sample_raw": [
+            "No. 109, Ferns Meadows, Avalahalli Main Road, Bileshivale, Bangalore North, Bangalore, Karnataka"
+          ]
+        },
+        {
+          "value": "415 northfield boulevard, unit a11, murfreesboro, tn",
+          "size": 12,
+          "sample_raw": [
+            "415 Northfield Boulevard, Unit A11, Murfreesboro, TN"
+          ]
+        },
+        {
+          "value": "1948 weaver forest way, morrisville, nc",
+          "size": 12,
+          "sample_raw": [
+            "1948 Weaver Forest Way, Morrisville, NC"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 2206821,
+      "unique_values": 2130528,
+      "collapse_pct": 3.46,
+      "collision_groups": 40163,
+      "rows_in_collisions": 116456,
+      "rows_in_collisions_pct": 5.28,
+      "max_group_size": 14,
+      "top_groups": [
+        {
+          "value": "108 norle street, college twp, pa",
+          "size": 14,
+          "sample_raw": [
+            "108 Norle Street, College Twp, PA"
+          ]
+        },
+        {
+          "value": "104 roadrunner circle, elephant butte, nm",
+          "size": 13,
+          "sample_raw": [
+            "104 Roadrunner Circle, Elephant Butte, NM"
+          ]
+        },
+        {
+          "value": "218 phillips street, storm lake, ia",
+          "size": 13,
+          "sample_raw": [
+            "218 Phillips Street, Storm Lake, IA"
+          ]
+        },
+        {
+          "value": "43 franklin street, delaware, oh",
+          "size": 13,
+          "sample_raw": [
+            "43 Franklin Street, Delaware, OH"
+          ]
+        },
+        {
+          "value": "55, lavkush vihar, singhpur, kachhar bithoor road, kalyanpur, kanpur nagar, uttar pradesh",
+          "size": 13,
+          "sample_raw": [
+            "55, Lavkush Vihar, Singhpur, Kachhar Bithoor Road, Kalyanpur, Kanpur Nagar, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "1921 willow park drive, fort worth, tx",
+          "size": 13,
+          "sample_raw": [
+            "1921 Willow Park Drive, Fort Worth, TX"
+          ]
+        },
+        {
+          "value": "43233 clearnight terrace, loudoun county, va",
+          "size": 12,
+          "sample_raw": [
+            "43233 Clearnight Terrace, Loudoun County, VA"
+          ]
+        },
+        {
+          "value": "4804 gardenia avenue, glendale, az",
+          "size": 12,
+          "sample_raw": [
+            "4804 Gardenia Avenue, Glendale, AZ"
+          ]
+        },
+        {
+          "value": "h. no. 154 - a, veer savarkar nagar, mini bypass road, p/o izzatnagar, bareilly, uttar pradesh",
+          "size": 12,
+          "sample_raw": [
+            "H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Bareilly, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "no. 109, ferns meadows, avalahalli main road, bileshivale, bangalore north, bangalore, karnataka",
+          "size": 12,
+          "sample_raw": [
+            "No. 109, Ferns Meadows, Avalahalli Main Road, Bileshivale, Bangalore North, Bangalore, Karnataka"
+          ]
+        },
+        {
+          "value": "415 northfield boulevard, unit a11, murfreesboro, tn",
+          "size": 12,
+          "sample_raw": [
+            "415 Northfield Boulevard, Unit A11, Murfreesboro, TN"
+          ]
+        },
+        {
+          "value": "1948 weaver forest way, morrisville, nc",
+          "size": 12,
+          "sample_raw": [
+            "1948 Weaver Forest Way, Morrisville, NC"
+          ]
+        }
+      ]
+    },
+    "no_digits": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1756008,
+      "collapse_pct": 20.43,
+      "collision_groups": 193512,
+      "rows_in_collisions": 644325,
+      "rows_in_collisions_pct": 29.2,
+      "max_group_size": 1390,
+      "top_groups": [
+        {
+          "value": "street, brooklyn, ny",
+          "size": 1390,
+          "sample_raw": [
+            "1447 59 Street, Brooklyn, NY",
+            "1035 85 Street, Brooklyn, NY",
+            "1721 86 Street, Brooklyn, NY",
+            "1013 46 Street, Brooklyn, NY",
+            "1832 9 Street, Brooklyn, NY"
+          ]
+        },
+        {
+          "value": "th avenue, seattle, wa",
+          "size": 835,
+          "sample_raw": [
+            "4024 39th Avenue, Seattle, WA",
+            "1810 24th Avenue, Seattle, WA",
+            "7742 30th Avenue, Seattle, WA",
+            "10019 48th Avenue, Seattle, WA",
+            "5545 27th Avenue, Seattle, WA"
+          ]
+        },
+        {
+          "value": "th avenue, portland, or",
+          "size": 739,
+          "sample_raw": [
+            "2532 17th Avenue, Portland, OR",
+            "4234 100th Avenue, Portland, OR",
+            "8608 64th Avenue, Portland, OR",
+            "2404 16th Avenue, Portland, OR",
+            "8793 67th Avenue, Portland, OR"
+          ]
+        },
+        {
+          "value": "th street, lubbock, tx",
+          "size": 699,
+          "sample_raw": [
+            "3002 37th Street, Lubbock, TX",
+            "5825 100th Street, Lubbock, TX",
+            "7422 30th Street, Lubbock, TX",
+            "4306 16th Street, Lubbock, TX",
+            "3311 60th Street, Lubbock, TX"
+          ]
+        },
+        {
+          "value": "th street, unit , washington, dc",
+          "size": 632,
+          "sample_raw": [
+            "201 58th Street, Unit 141, Washington, DC",
+            "1011 4th Street, Unit 303, Washington, DC",
+            "1115 12th Street, Unit 601, Washington, DC",
+            "1511 13th Street, Unit 2, Washington, DC",
+            "3199 8th Street, Unit 2103, Washington, DC"
+          ]
+        },
+        {
+          "value": "th street, cleveland, oh",
+          "size": 605,
+          "sample_raw": [
+            "3275 97th Street, Cleveland, OH",
+            "4525 156th Street, Cleveland, OH",
+            "4110 145th Street, Cleveland, OH",
+            "1667 85th Street, Cleveland, OH",
+            "3564 66th Street, Cleveland, OH"
+          ]
+        },
+        {
+          "value": "th street, unit , phoenix, az",
+          "size": 523,
+          "sample_raw": [
+            "4419 27th Street, Unit 11, Phoenix, AZ",
+            "17950 68th Street, Unit 1044, Phoenix, AZ",
+            "1820 7th Street, Unit 419, Phoenix, AZ",
+            "3034 39th Street, Unit 8, Phoenix, AZ",
+            "16601 12th Street, Unit 3090, Phoenix, AZ"
+          ]
+        },
+        {
+          "value": "th street, omaha, ne",
+          "size": 515,
+          "sample_raw": [
+            "5060 106th Street, Omaha, NE",
+            "117 89th Street, Omaha, NE",
+            "656 57th Street, Omaha, NE",
+            "3529 75th Street, Omaha, NE",
+            "2703 56th Street, Omaha, NE"
+          ]
+        },
+        {
+          "value": "th street, kansas city, mo",
+          "size": 444,
+          "sample_raw": [
+            "127 78th Street, Kansas City, MO",
+            "8301 49th Street, Kansas City, MO",
+            "200 39th Street, Kansas City, MO",
+            "400 114th Street, Kansas City, MO",
+            "2313 60th Street, Kansas City, MO"
+          ]
+        },
+        {
+          "value": "th street, chicago, il",
+          "size": 431,
+          "sample_raw": [
+            "615 107th Street, Chicago, IL",
+            "1743 85th Street, Chicago, IL",
+            "2919 95th Street, Chicago, IL",
+            "3404 117th Street, Chicago, IL",
+            "38 99th Street, Chicago, IL"
+          ]
+        },
+        {
+          "value": "th street, tulsa, ok",
+          "size": 430,
+          "sample_raw": [
+            "1743 59th Street, Tulsa, OK",
+            "1558 54th Street, Tulsa, OK",
+            "7312 87th Street, Tulsa, OK",
+            "1640 5th Street, Tulsa, OK",
+            "12315 39th Street, Tulsa, OK"
+          ]
+        },
+        {
+          "value": ", unit , salt lake city, ut",
+          "size": 419,
+          "sample_raw": [
+            "1121 500, Unit 18, Salt Lake City, UT",
+            "1500 1000, Unit 1, Salt Lake City, UT",
+            "718 900, Unit 307, Salt Lake City, UT",
+            "285 600, Unit 345, Salt Lake City, UT",
+            "230 1700, Unit 123, Salt Lake City, UT"
+          ]
+        }
+      ]
+    },
+    "no_numeric_tokens": {
+      "rows_nonempty": 2206821,
+      "unique_values": 1795186,
+      "collapse_pct": 18.65,
+      "collision_groups": 195791,
+      "rows_in_collisions": 607426,
+      "rows_in_collisions_pct": 27.52,
+      "max_group_size": 1392,
+      "top_groups": [
+        {
+          "value": "street, brooklyn, ny",
+          "size": 1392,
+          "sample_raw": [
+            "1447 59 Street, Brooklyn, NY",
+            "1035 85 Street, Brooklyn, NY",
+            "1721 86 Street, Brooklyn, NY",
+            "1013 46 Street, Brooklyn, NY",
+            "1832 9 Street, Brooklyn, NY"
+          ]
+        },
+        {
+          "value": "unit salt lake city, ut",
+          "size": 426,
+          "sample_raw": [
+            "1121 500, Unit 18, Salt Lake City, UT",
+            "1500 1000, Unit 1, Salt Lake City, UT",
+            "718 900, Unit 307, Salt Lake City, UT",
+            "285 600, Unit 345, Salt Lake City, UT",
+            "230 1700, Unit 123, Salt Lake City, UT"
+          ]
+        },
+        {
+          "value": "street, new york, ny",
+          "size": 407,
+          "sample_raw": [
+            "258 153 Street, New York, NY",
+            "457 125 Street, New York, NY",
+            "434 20 Street, New York, NY",
+            "610 148 Street, New York, NY",
+            "500 83 Street, New York, NY"
+          ]
+        },
+        {
+          "value": "road cleveland, tx",
+          "size": 311,
+          "sample_raw": [
+            "4021 Road 591605, Cleveland, TX",
+            "5094 Road 591601, Cleveland, TX",
+            "7163 Road 5913-10, Cleveland, TX",
+            "618 Road 591705, Cleveland, TX",
+            "190 Road 5501, Cleveland, TX"
+          ]
+        },
+        {
+          "value": "county road cleveland, tx",
+          "size": 309,
+          "sample_raw": [
+            "28 County Road 5100, Cleveland, TX",
+            "1070 County Road 2269, Cleveland, TX",
+            "102 County Road 5113, Cleveland, TX",
+            "766 County Road 3406, Cleveland, TX",
+            "4005 County Road 2305, Cleveland, TX"
+          ]
+        },
+        {
+          "value": "orem, ut",
+          "size": 309,
+          "sample_raw": [
+            "218 890, Orem, UT",
+            "23 1070, Orem, UT",
+            "1878 1120, Orem, UT",
+            "864 800, Orem, UT",
+            "487 230, Orem, UT"
+          ]
+        },
+        {
+          "value": "salt lake city, ut",
+          "size": 257,
+          "sample_raw": [
+            "136 800, Salt Lake City, UT",
+            "1300 900, Salt Lake City, UT",
+            "334 900, Salt Lake City, UT",
+            "653 900, Salt Lake City, UT",
+            "2033 1300, Salt Lake City, UT"
+          ]
+        },
+        {
+          "value": "tyler, tx",
+          "size": 246,
+          "sample_raw": [
+            "14072 431, Tyler, TX",
+            "8166 2767, Tyler, TX",
+            "13080 2015, Tyler, TX",
+            "5571 219, Tyler, TX",
+            "15466 64, Tyler, TX"
+          ]
+        },
+        {
+          "value": "provo, ut",
+          "size": 245,
+          "sample_raw": [
+            "1014 1300, Provo, UT",
+            "Provo, 1014 1300, UT",
+            "222 100, Provo, UT",
+            "679 1890, Provo, UT",
+            "1055 1560, Provo, UT"
+          ]
+        },
+        {
+          "value": "lehi, ut",
+          "size": 203,
+          "sample_raw": [
+            "1674 500, Lehi, UT",
+            "3285 870, Lehi, UT",
+            "2074 450, Lehi, UT",
+            "1261 1835, Lehi, UT",
+            "487 900, Lehi, UT"
+          ]
+        },
+        {
+          "value": "street, bronx, ny",
+          "size": 195,
+          "sample_raw": [
+            "43 233 Street, Bronx, NY",
+            "232 238 Street, Bronx, NY",
+            "1029 219 Street, Bronx, NY",
+            "737 136 Street, Bronx, NY",
+            "843 149 Street, Bronx, NY"
+          ]
+        },
+        {
+          "value": "west valley city, ut",
+          "size": 185,
+          "sample_raw": [
+            "4416 3325, West Valley City, UT",
+            "3309 6535, West Valley City, UT",
+            "3690 4355, West Valley City, UT",
+            "2778 2670, West Valley City, UT",
+            "2916 3875, West Valley City, UT"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 2206821,
+      "unique_values": 2124818,
+      "collapse_pct": 3.72,
+      "collision_groups": 42902,
+      "rows_in_collisions": 124905,
+      "rows_in_collisions_pct": 5.66,
+      "max_group_size": 14,
+      "top_groups": [
+        {
+          "value": "108 college norle pa street, twp,",
+          "size": 14,
+          "sample_raw": [
+            "108 Norle Street, College Twp, PA"
+          ]
+        },
+        {
+          "value": "104 butte, circle, elephant nm roadrunner",
+          "size": 13,
+          "sample_raw": [
+            "104 Roadrunner Circle, Elephant Butte, NM"
+          ]
+        },
+        {
+          "value": "- 154 a, bareilly, bypass h. izzatnagar, mini nagar, no. p/o pradesh road, savarkar uttar veer",
+          "size": 13,
+          "sample_raw": [
+            "H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Bareilly, Uttar Pradesh",
+            "Bareilly, H. No. 154 - A, Veer Savarkar Nagar, Mini Bypass Road, P/O Izzatnagar, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "218 ia lake, phillips storm street,",
+          "size": 13,
+          "sample_raw": [
+            "218 Phillips Street, Storm Lake, IA"
+          ]
+        },
+        {
+          "value": "43 delaware, franklin oh street,",
+          "size": 13,
+          "sample_raw": [
+            "43 Franklin Street, Delaware, OH"
+          ]
+        },
+        {
+          "value": "6249 az drive, eagles roost tucson,",
+          "size": 13,
+          "sample_raw": [
+            "Tucson, 6249 Eagles Roost Drive, AZ",
+            "6249 Eagles Roost Drive, Tucson, AZ"
+          ]
+        },
+        {
+          "value": "55, bithoor kachhar kalyanpur, kanpur lavkush nagar, pradesh road, singhpur, uttar vihar,",
+          "size": 13,
+          "sample_raw": [
+            "55, Lavkush Vihar, Singhpur, Kachhar Bithoor Road, Kalyanpur, Kanpur Nagar, Uttar Pradesh"
+          ]
+        },
+        {
+          "value": "1921 drive, fort park tx willow worth,",
+          "size": 13,
+          "sample_raw": [
+            "1921 Willow Park Drive, Fort Worth, TX"
+          ]
+        },
+        {
+          "value": "43233 clearnight county, loudoun terrace, va",
+          "size": 12,
+          "sample_raw": [
+            "43233 Clearnight Terrace, Loudoun County, VA"
+          ]
+        },
+        {
+          "value": "4804 avenue, az gardenia glendale,",
+          "size": 12,
+          "sample_raw": [
+            "4804 Gardenia Avenue, Glendale, AZ"
+          ]
+        },
+        {
+          "value": "abul bagh, c-55, delhi delhi, delhi, delhi, enclave fazal floor, ground jamia nagar, new part-2, shaheen south",
+          "size": 12,
+          "sample_raw": [
+            "Ground Floor, C-55, Abul Fazal Enclave Part-2, Shaheen Bagh, Jamia Nagar, Delhi, New Delhi, South Delhi, Delhi",
+            "Ground Floor, Delhi, C-55, Abul Fazal Enclave Part-2, Shaheen Bagh, Jamia Nagar, Delhi, South Delhi, New Delhi",
+            "C-55, Abul Fazal Enclave Part-2, Shaheen Bagh, Jamia Nagar, Delhi, Delhi, South Delhi, Ground Floor, New Delhi",
+            "New Delhi, Ground Floor, Delhi, C-55, Abul Fazal Enclave Part-2, Shaheen Bagh, Jamia Nagar, Delhi, South Delhi"
+          ]
+        },
+        {
+          "value": "109, avalahalli bangalore bangalore, bileshivale, ferns karnataka main meadows, no. north, road,",
+          "size": 12,
+          "sample_raw": [
+            "No. 109, Ferns Meadows, Avalahalli Main Road, Bileshivale, Bangalore North, Bangalore, Karnataka"
+          ]
+        }
+      ]
+    }
+  },
+  "s1_misc": {
+    "rows": 2206821,
+    "name_missing": 0,
+    "addr_missing": 0,
+    "country_distribution": {
+      "US": 1323633,
+      "India": 883188
+    }
+  },
+  "s2_sample_name_collisions": {
+    "norm_current": {
+      "rows_nonempty": 500000,
+      "unique_values": 471394,
+      "collapse_pct": 5.72,
+      "collision_groups": 16812,
+      "rows_in_collisions": 45418,
+      "rows_in_collisions_pct": 9.08,
+      "max_group_size": 46,
+      "top_groups": [
+        {
+          "value": "pediatric dental",
+          "size": 46,
+          "sample_raw": [
+            "Pediatric Dental",
+            "PEDIATRIC DENTAL",
+            "Pediatric  Dental",
+            "PEDIATRIC  DENTAL"
+          ]
+        },
+        {
+          "value": "primary care",
+          "size": 46,
+          "sample_raw": [
+            "Primary Care",
+            "PRIMARY CARE",
+            "PRIMARY  CARE",
+            "Primary  Care",
+            "-- Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "PHYSICAL  THERAPY",
+            "PHYSICAL THERAPY",
+            "... Physical Therapy",
+            "Physical  Therapy"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 42,
+          "sample_raw": [
+            "Urgent Care",
+            "URGENT  CARE",
+            "URGENT CARE",
+            "... Urgent  Care",
+            "Urgent  Care"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 41,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine",
+            "INTERNAL MEDICINE",
+            "INTERNAL  MEDICINE"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 40,
+          "sample_raw": [
+            "WOMENS HEALTH",
+            "Womens Health",
+            "WOMENS  HEALTH",
+            "Womens  Health",
+            "-- Womens Health"
+          ]
+        },
+        {
+          "value": "behavioral health",
+          "size": 39,
+          "sample_raw": [
+            "Behavioral Health",
+            "BEHAVIORAL HEALTH",
+            "Behavioral  Health",
+            "BEHAVIORAL  HEALTH"
+          ]
+        },
+        {
+          "value": "ear nose & throat",
+          "size": 38,
+          "sample_raw": [
+            "EAR NOSE & THROAT",
+            "Ear Nose  & Throat",
+            "-- Ear Nose & Throat",
+            "Ear Nose & Throat",
+            "Ear Nose &  Throat"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 36,
+          "sample_raw": [
+            "EARNOSETHROAT.COM",
+            "earnosethroat.com",
+            "*** earnosethroat.com"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "MAIN STREET",
+            "Main Street",
+            "MAIN  STREET",
+            "Main  Street",
+            ">> MAIN STREET"
+          ]
+        },
+        {
+          "value": "pediatric dentistry",
+          "size": 31,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry",
+            "PEDIATRIC DENTISTRY",
+            "PEDIATRIC  DENTISTRY"
+          ]
+        },
+        {
+          "value": "department of",
+          "size": 29,
+          "sample_raw": [
+            "Department of",
+            "DEPARTMENT  OF",
+            "DEPARTMENT OF",
+            "Department  of",
+            "... DEPARTMENT  OF"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 500000,
+      "unique_values": 469290,
+      "collapse_pct": 6.14,
+      "collision_groups": 18184,
+      "rows_in_collisions": 48894,
+      "rows_in_collisions_pct": 9.78,
+      "max_group_size": 46,
+      "top_groups": [
+        {
+          "value": "pediatric dental",
+          "size": 46,
+          "sample_raw": [
+            "Pediatric Dental",
+            "PEDIATRIC DENTAL",
+            "Pediatric  Dental",
+            "PEDIATRIC  DENTAL"
+          ]
+        },
+        {
+          "value": "primary care",
+          "size": 46,
+          "sample_raw": [
+            "Primary Care",
+            "PRIMARY CARE",
+            "PRIMARY  CARE",
+            "Primary  Care",
+            "-- Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "PHYSICAL  THERAPY",
+            "PHYSICAL THERAPY",
+            "... Physical Therapy",
+            "Physical  Therapy"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 42,
+          "sample_raw": [
+            "Urgent Care",
+            "URGENT  CARE",
+            "URGENT CARE",
+            "... Urgent  Care",
+            "Urgent  Care"
+          ]
+        },
+        {
+          "value": "ear nose and throat",
+          "size": 41,
+          "sample_raw": [
+            "EAR NOSE & THROAT",
+            "Ear Nose  & Throat",
+            "-- Ear Nose & Throat",
+            "Ear Nose & Throat",
+            "Ear Nose &  Throat"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 41,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine",
+            "INTERNAL MEDICINE",
+            "INTERNAL  MEDICINE"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 40,
+          "sample_raw": [
+            "WOMENS HEALTH",
+            "Womens Health",
+            "WOMENS  HEALTH",
+            "Womens  Health",
+            "-- Womens Health"
+          ]
+        },
+        {
+          "value": "behavioral health",
+          "size": 39,
+          "sample_raw": [
+            "Behavioral Health",
+            "BEHAVIORAL HEALTH",
+            "Behavioral  Health",
+            "BEHAVIORAL  HEALTH"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 36,
+          "sample_raw": [
+            "EARNOSETHROAT.COM",
+            "earnosethroat.com",
+            "*** earnosethroat.com"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "MAIN STREET",
+            "Main Street",
+            "MAIN  STREET",
+            "Main  Street",
+            ">> MAIN STREET"
+          ]
+        },
+        {
+          "value": "pediatric dentistry",
+          "size": 31,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry",
+            "PEDIATRIC DENTISTRY",
+            "PEDIATRIC  DENTISTRY"
+          ]
+        },
+        {
+          "value": "department of",
+          "size": 29,
+          "sample_raw": [
+            "Department of",
+            "DEPARTMENT  OF",
+            "DEPARTMENT OF",
+            "Department  of",
+            "... DEPARTMENT  OF"
+          ]
+        }
+      ]
+    },
+    "no_suffix": {
+      "rows_nonempty": 499998,
+      "unique_values": 448937,
+      "collapse_pct": 10.21,
+      "collision_groups": 25938,
+      "rows_in_collisions": 76999,
+      "rows_in_collisions_pct": 15.4,
+      "max_group_size": 63,
+      "top_groups": [
+        {
+          "value": "meridian",
+          "size": 63,
+          "sample_raw": [
+            "Corp Meridian",
+            "Meridian Ltd",
+            "Inc Meridian",
+            "Meridian",
+            "LLC MERIDIAN"
+          ]
+        },
+        {
+          "value": "pediatric dental",
+          "size": 51,
+          "sample_raw": [
+            "Pediatric Dental",
+            "PEDIATRIC DENTAL",
+            "Pediatric LLC Dental",
+            "PEDIATRIC  DENTAL LLC",
+            "Pediatric Dental Inc"
+          ]
+        },
+        {
+          "value": "primary care",
+          "size": 49,
+          "sample_raw": [
+            "Primary Care",
+            "PRIMARY CARE",
+            "Primary  Care Inc",
+            "PRIMARY  CARE",
+            "Primary Care  LLC"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 48,
+          "sample_raw": [
+            "Physical Therapy",
+            "PHYSICAL  THERAPY",
+            "PHYSICAL THERAPY",
+            "Physical Therapy Inc",
+            "... Physical Therapy"
+          ]
+        },
+        {
+          "value": "cinder",
+          "size": 45,
+          "sample_raw": [
+            "Cinder",
+            "Cinder Corporation",
+            "Cinder PC",
+            "Cinder  Corp",
+            "CINDER"
+          ]
+        },
+        {
+          "value": "ear nose & throat",
+          "size": 44,
+          "sample_raw": [
+            "EAR NOSE & THROAT",
+            "Ear Nose  & Throat",
+            "Ear Nose & Throat LLC",
+            "-- Ear Nose & Throat",
+            "Ear Nose & Throat"
+          ]
+        },
+        {
+          "value": "behavioral health",
+          "size": 44,
+          "sample_raw": [
+            "Behavioral Health",
+            "BEHAVIORAL HEALTH",
+            "Behavioral Health Inc",
+            "Behavioral  Health",
+            "Behavioral Health LLC"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 44,
+          "sample_raw": [
+            "Urgent Care",
+            "URGENT  CARE",
+            "URGENT CARE",
+            "... Urgent  Care",
+            "Urgent  Care"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 42,
+          "sample_raw": [
+            "WOMENS HEALTH",
+            "Womens Health",
+            "WOMENS  HEALTH",
+            "Womens  Health",
+            "Womens Health LLC"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 41,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine",
+            "INTERNAL MEDICINE",
+            "INTERNAL  MEDICINE"
+          ]
+        },
+        {
+          "value": "forge",
+          "size": 38,
+          "sample_raw": [
+            "FORGE LTD",
+            "Forge",
+            "FORGE CO",
+            "Forge Inc.",
+            "FORGE  INC"
+          ]
+        },
+        {
+          "value": "family center",
+          "size": 38,
+          "sample_raw": [
+            "Family Center",
+            "LLC Family Center",
+            "Family Center Ltd",
+            "Family LLC  Center",
+            "FAMILY CENTER"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 500000,
+      "unique_values": 468804,
+      "collapse_pct": 6.24,
+      "collision_groups": 18380,
+      "rows_in_collisions": 49576,
+      "rows_in_collisions_pct": 9.92,
+      "max_group_size": 46,
+      "top_groups": [
+        {
+          "value": "dental pediatric",
+          "size": 46,
+          "sample_raw": [
+            "Pediatric Dental",
+            "PEDIATRIC DENTAL",
+            "Pediatric  Dental",
+            "PEDIATRIC  DENTAL"
+          ]
+        },
+        {
+          "value": "care primary",
+          "size": 46,
+          "sample_raw": [
+            "Primary Care",
+            "PRIMARY CARE",
+            "PRIMARY  CARE",
+            "Primary  Care",
+            "-- Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "PHYSICAL  THERAPY",
+            "PHYSICAL THERAPY",
+            "... Physical Therapy",
+            "Physical  Therapy"
+          ]
+        },
+        {
+          "value": "care urgent",
+          "size": 42,
+          "sample_raw": [
+            "Urgent Care",
+            "URGENT  CARE",
+            "URGENT CARE",
+            "... Urgent  Care",
+            "Urgent  Care"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 41,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine",
+            "INTERNAL MEDICINE",
+            "INTERNAL  MEDICINE"
+          ]
+        },
+        {
+          "value": "health womens",
+          "size": 40,
+          "sample_raw": [
+            "WOMENS HEALTH",
+            "Womens Health",
+            "WOMENS  HEALTH",
+            "Womens  Health",
+            "-- Womens Health"
+          ]
+        },
+        {
+          "value": "behavioral health",
+          "size": 39,
+          "sample_raw": [
+            "Behavioral Health",
+            "BEHAVIORAL HEALTH",
+            "Behavioral  Health",
+            "BEHAVIORAL  HEALTH"
+          ]
+        },
+        {
+          "value": "& ear nose throat",
+          "size": 38,
+          "sample_raw": [
+            "EAR NOSE & THROAT",
+            "Ear Nose  & Throat",
+            "-- Ear Nose & Throat",
+            "Ear Nose & Throat",
+            "Ear Nose &  Throat"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 36,
+          "sample_raw": [
+            "EARNOSETHROAT.COM",
+            "earnosethroat.com",
+            "*** earnosethroat.com"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "MAIN STREET",
+            "Main Street",
+            "MAIN  STREET",
+            "Main  Street",
+            ">> MAIN STREET"
+          ]
+        },
+        {
+          "value": "dentistry pediatric",
+          "size": 31,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry",
+            "PEDIATRIC DENTISTRY",
+            "PEDIATRIC  DENTISTRY"
+          ]
+        },
+        {
+          "value": "department of",
+          "size": 29,
+          "sample_raw": [
+            "Department of",
+            "DEPARTMENT  OF",
+            "DEPARTMENT OF",
+            "Department  of",
+            "... DEPARTMENT  OF"
+          ]
+        }
+      ]
+    }
+  },
+  "s2_sample_address_collisions": {
+    "norm_current": {
+      "rows_nonempty": 483146,
+      "unique_values": 475899,
+      "collapse_pct": 1.5,
+      "collision_groups": 6952,
+      "rows_in_collisions": 14199,
+      "rows_in_collisions_pct": 2.94,
+      "max_group_size": 4,
+      "top_groups": [
+        {
+          "value": "979, na, vikas puri, new delhi, new delhi, delhi",
+          "size": 4,
+          "sample_raw": [
+            "979, NA, VIKAS PURI, NEW DELHI, NEW DELHI, Delhi"
+          ]
+        },
+        {
+          "value": "hn 212 e.c.s - 1634/11, 38, 34/11, 38th a cross, 8th blkjnr, bangalore, karnataka",
+          "size": 4,
+          "sample_raw": [
+            "HN 212  E.C.S - 1634/11, 38, 34/11, 38TH A CROSS, 8TH BLKJNR, BANGALORE, Karnataka"
+          ]
+        },
+        {
+          "value": "2231 rexford rd, charlotte, nc",
+          "size": 4,
+          "sample_raw": [
+            "2231 REXFORD RD, CHARLOTTE, NC"
+          ]
+        },
+        {
+          "value": "001430 woolsey heights, cimarron hills, co",
+          "size": 4,
+          "sample_raw": [
+            "001430 WOOLSEY HEIGHTS, CIMARRON HILLS, CO",
+            "001430 Woolsey Heights, CIMARRON HILLS, CO"
+          ]
+        },
+        {
+          "value": "11237 2580, s.j ordan, ut",
+          "size": 4,
+          "sample_raw": [
+            "11237 2580, S.J ORDAN, UT"
+          ]
+        },
+        {
+          "value": "59 water st, sandwich, ma",
+          "size": 4,
+          "sample_raw": [
+            "59 WATER ST, SANDWICH, MA"
+          ]
+        },
+        {
+          "value": "301, mumbai, mumbai city, maharashtra",
+          "size": 4,
+          "sample_raw": [
+            "301, MUMBAI, MUMBAI CITY, Maharashtra"
+          ]
+        },
+        {
+          "value": "417 3a, unadilla, ny",
+          "size": 4,
+          "sample_raw": [
+            "417 3A, UNADILLA, NY"
+          ]
+        },
+        {
+          "value": "d-407, imperial heights, opp. big bazar 150 ft ring road, rajkot, gujarat",
+          "size": 4,
+          "sample_raw": [
+            "D-407, IMPERIAL HEIGHTS, OPP. BIG BAZAR 150 FT RING ROAD, RAJKOT, Gujarat"
+          ]
+        },
+        {
+          "value": "400 congress st, portland, me",
+          "size": 4,
+          "sample_raw": [
+            "400 CONGRESS ST, PORTLAND, ME",
+            "400 Congress St, PORTLAND, ME"
+          ]
+        },
+        {
+          "value": "12015. marine dr, marysville, wa",
+          "size": 4,
+          "sample_raw": [
+            "12015. MARINE DR, MARYSVILLE, WA"
+          ]
+        },
+        {
+          "value": "6811 rocky valley rd, jefferson city, mo",
+          "size": 4,
+          "sample_raw": [
+            "6811 ROCKY VALLEY RD, JEFFERSON CITY, MO",
+            "6811 Rocky Valley Rd, JEFFERSON CITY, MO"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 483146,
+      "unique_values": 473863,
+      "collapse_pct": 1.92,
+      "collision_groups": 8842,
+      "rows_in_collisions": 18125,
+      "rows_in_collisions_pct": 3.75,
+      "max_group_size": 6,
+      "top_groups": [
+        {
+          "value": "2231 rexford road, charlotte, nc",
+          "size": 6,
+          "sample_raw": [
+            "2231 REXFORD RD, CHARLOTTE, NC",
+            "2231 REXFORD ROAD, CHARLOTTE, NC"
+          ]
+        },
+        {
+          "value": "3710 goldfield road, apache junction, az",
+          "size": 6,
+          "sample_raw": [
+            "3710 GOLDFIELD RD, APACHE JUNCTION, AZ",
+            "3710 GOLDFIELD ROAD, APACHE JUNCTION, AZ"
+          ]
+        },
+        {
+          "value": "400 congress street, portland, me",
+          "size": 5,
+          "sample_raw": [
+            "400 CONGRESS ST, PORTLAND, ME",
+            "400 Congress St, PORTLAND, ME",
+            "400 CONGRESS STREET, PORTLAND, ME"
+          ]
+        },
+        {
+          "value": "979, na, vikas puri, new delhi, new delhi, delhi",
+          "size": 4,
+          "sample_raw": [
+            "979, NA, VIKAS PURI, NEW DELHI, NEW DELHI, Delhi"
+          ]
+        },
+        {
+          "value": "hn 212 e.c.s - 1634/11, 38, 34/11, 38th a cross, 8th blkjnr, bangalore, karnataka",
+          "size": 4,
+          "sample_raw": [
+            "HN 212  E.C.S - 1634/11, 38, 34/11, 38TH A CROSS, 8TH BLKJNR, BANGALORE, Karnataka"
+          ]
+        },
+        {
+          "value": "1101 1/2 calvert street, baltimore, md",
+          "size": 4,
+          "sample_raw": [
+            "1101 1/2 CALVERT STREET, BALTIMORE, MD",
+            "1101 1/2 CALVERT ST, BALTIMORE, MD"
+          ]
+        },
+        {
+          "value": "001430 woolsey heights, cimarron hills, co",
+          "size": 4,
+          "sample_raw": [
+            "001430 WOOLSEY HEIGHTS, CIMARRON HILLS, CO",
+            "001430 Woolsey Heights, CIMARRON HILLS, CO"
+          ]
+        },
+        {
+          "value": "redwood road, salt lake city, ut",
+          "size": 4,
+          "sample_raw": [
+            "REDWOOD ROAD, SALT LAKE CITY, UT",
+            "REDWOOD RD, null, SALT LAKE CITY, UT",
+            "REDWOOD RD, SALT LAKE CITY, UT"
+          ]
+        },
+        {
+          "value": "11237 2580, s.j ordan, ut",
+          "size": 4,
+          "sample_raw": [
+            "11237 2580, S.J ORDAN, UT"
+          ]
+        },
+        {
+          "value": "59 water street, sandwich, ma",
+          "size": 4,
+          "sample_raw": [
+            "59 WATER ST, SANDWICH, MA"
+          ]
+        },
+        {
+          "value": "3404 wilway avenue, albuquerque, nm",
+          "size": 4,
+          "sample_raw": [
+            "3404 WILWAY AVENUE, ALBUQUERQUE, NM",
+            "3404 WILWAY AVE, ALBUQUERQUE, NM"
+          ]
+        },
+        {
+          "value": "301, mumbai, mumbai city, maharashtra",
+          "size": 4,
+          "sample_raw": [
+            "301, MUMBAI, MUMBAI CITY, Maharashtra"
+          ]
+        }
+      ]
+    },
+    "no_digits": {
+      "rows_nonempty": 483146,
+      "unique_values": 454969,
+      "collapse_pct": 5.83,
+      "collision_groups": 18543,
+      "rows_in_collisions": 46720,
+      "rows_in_collisions_pct": 9.67,
+      "max_group_size": 126,
+      "top_groups": [
+        {
+          "value": ", salt lake city, ut",
+          "size": 126,
+          "sample_raw": [
+            "0947 900, SALT LAKE CITY, UT",
+            "00151 2100, SALT LAKE CITY, UT",
+            "3360, SALT LAKE CITY, UT",
+            "1565 3300, SALT LAKE CITY, UT",
+            "2900, SALT LAKE CITY, UT"
+          ]
+        },
+        {
+          "value": "st, brooklyn, ny",
+          "size": 99,
+          "sample_raw": [
+            "451 11 ST, BROOKLYN, NY",
+            "2248  64 ST, BROOKLYN, NY",
+            "1031 14 ST, BROOKLYN, NY",
+            "1950 62 ST, BROOKLYN, NY",
+            "421 2 ST, BROOKLYN, NY"
+          ]
+        },
+        {
+          "value": "street, brooklyn, ny",
+          "size": 68,
+          "sample_raw": [
+            "1805 8 STREET, BROOKLYN, NY",
+            "1822 4 STREET, BROOKLYN, NY",
+            "449 57 STREET, BROOKLYN, NY",
+            "736  56 STREET, BROOKLYN, NY",
+            "04 7 STREET, BROOKLYN, NY"
+          ]
+        },
+        {
+          "value": ", mumbai, mumbai city, maharashtra",
+          "size": 52,
+          "sample_raw": [
+            "72 1, MUMBAI, MUMBAI CITY, Maharashtra",
+            "302, MUMBAI, MUMBAI CITY, Maharashtra",
+            "112, MUMBAI, MUMBAI CITY, Maharashtra",
+            "125, MUMBAI, MUMBAI CITY, Maharashtra",
+            "301, MUMBAI, MUMBAI CITY, Maharashtra"
+          ]
+        },
+        {
+          "value": "th st, washington, dc",
+          "size": 50,
+          "sample_raw": [
+            "1301 15TH ST, WASHINGTON, DC",
+            "5204 14TH ST, NULL, WASHINGTON, DC",
+            "2713 16TH ST, WASHINGTON, DC",
+            "3636 16th St, WASHINGTON, DC",
+            "2139 11TH ST, WASHINGTON, DC"
+          ]
+        },
+        {
+          "value": "th ave, seattle, wa",
+          "size": 48,
+          "sample_raw": [
+            "08223 21TH AVE, SEATTLE, WA",
+            "6836 34TH AVE, SEATTLE, WA",
+            "214 31TH AVE, SEATTLE, WA",
+            "4550 34TH AVE, SEATTLE, WA",
+            "4600 36TH AVE, SEATTLE, WA"
+          ]
+        },
+        {
+          "value": "th ave, portland, or",
+          "size": 46,
+          "sample_raw": [
+            "3541 125TH AVE, PORTLAND, OR",
+            "807 125TH AVE, PORTLAND, OR",
+            "1449 135TH AVE, PORTLAND, OR",
+            "8930 36TH AVE, PORTLAND, OR",
+            "70TH AVE, PORTLAND, OR"
+          ]
+        },
+        {
+          "value": ", mumbai, maharashtra",
+          "size": 45,
+          "sample_raw": [
+            "229, MUMBAI, Maharashtra",
+            "110, MUMBAI, Maharashtra",
+            "26 27, MUMBAI, Maharashtra",
+            "302, MUMBAI, Maharashtra",
+            "333, MUMBAI, Maharashtra"
+          ]
+        },
+        {
+          "value": ", orem, ut",
+          "size": 44,
+          "sample_raw": [
+            "1971 1080, OREM, UT",
+            "78 990, OREM, UT",
+            "16 2000, OREM, UT",
+            "732 300, OREM, UT",
+            "628 1600, OREM, UT"
+          ]
+        },
+        {
+          "value": ", clearfield, ut",
+          "size": 43,
+          "sample_raw": [
+            "931 1000, CLEARFIELD, UT",
+            "2195 900, CLEARFIELD, UT",
+            "2400, CLEARFIELD, UT",
+            "1965 550, CLEARFIELD, UT",
+            "1480 1000, CLEARFIELD, UT"
+          ]
+        },
+        {
+          "value": "th avenue, seattle, wa",
+          "size": 43,
+          "sample_raw": [
+            "7144 34TH AVENUE, SEATTLE, WA",
+            "12750 17TH AVENUE, SEATTLE, WA",
+            "3434 9TH AVENUE, SEATTLE, WA",
+            "6531 10th Avenue, SEATTLE, WA",
+            "3401 21TH AVENUE, SEATTLE, WA"
+          ]
+        },
+        {
+          "value": ", provo, ut",
+          "size": 42,
+          "sample_raw": [
+            "738 150, PROVO, UT",
+            "435 1980, PROVO, UT",
+            "642 200, PROVO, UT",
+            "1446 2630, PROVO, UT",
+            "274 500, PROVO, UT"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 483146,
+      "unique_values": 475368,
+      "collapse_pct": 1.61,
+      "collision_groups": 7458,
+      "rows_in_collisions": 15236,
+      "rows_in_collisions_pct": 3.15,
+      "max_group_size": 5,
+      "top_groups": [
+        {
+          "value": "400 congress me portland, st,",
+          "size": 5,
+          "sample_raw": [
+            "PORTLAND, 400 CONGRESS ST, ME",
+            "400 CONGRESS ST, PORTLAND, ME",
+            "400 Congress St, PORTLAND, ME"
+          ]
+        },
+        {
+          "value": "301, city, maharashtra mumbai mumbai,",
+          "size": 5,
+          "sample_raw": [
+            "301, MUMBAI, MUMBAI CITY, Maharashtra",
+            "301, MUMBAI CITY, MUMBAI, Maharashtra"
+          ]
+        },
+        {
+          "value": "979, delhi delhi, delhi, na, new new puri, vikas",
+          "size": 4,
+          "sample_raw": [
+            "979, NA, VIKAS PURI, NEW DELHI, NEW DELHI, Delhi"
+          ]
+        },
+        {
+          "value": "- 1634/11, 212 34/11, 38, 38th 8th a bangalore, blkjnr, cross, e.c.s hn karnataka",
+          "size": 4,
+          "sample_raw": [
+            "HN 212  E.C.S - 1634/11, 38, 34/11, 38TH A CROSS, 8TH BLKJNR, BANGALORE, Karnataka"
+          ]
+        },
+        {
+          "value": "2231 charlotte, nc rd, rexford",
+          "size": 4,
+          "sample_raw": [
+            "2231 REXFORD RD, CHARLOTTE, NC"
+          ]
+        },
+        {
+          "value": "001430 cimarron co heights, hills, woolsey",
+          "size": 4,
+          "sample_raw": [
+            "001430 WOOLSEY HEIGHTS, CIMARRON HILLS, CO",
+            "001430 Woolsey Heights, CIMARRON HILLS, CO"
+          ]
+        },
+        {
+          "value": "11237 2580, ordan, s.j ut",
+          "size": 4,
+          "sample_raw": [
+            "11237 2580, S.J ORDAN, UT"
+          ]
+        },
+        {
+          "value": "59 ma sandwich, st, water",
+          "size": 4,
+          "sample_raw": [
+            "59 WATER ST, SANDWICH, MA"
+          ]
+        },
+        {
+          "value": "3a, 417 ny unadilla,",
+          "size": 4,
+          "sample_raw": [
+            "417 3A, UNADILLA, NY"
+          ]
+        },
+        {
+          "value": "150 bazar big d-407, ft gujarat heights, imperial opp. rajkot, ring road,",
+          "size": 4,
+          "sample_raw": [
+            "D-407, IMPERIAL HEIGHTS, OPP. BIG BAZAR 150 FT RING ROAD, RAJKOT, Gujarat"
+          ]
+        },
+        {
+          "value": "2000 coralville, ia james st,",
+          "size": 4,
+          "sample_raw": [
+            "2000 JAMES ST, CORALVILLE, IA",
+            "CORALVILLE, 2000 James St, IA"
+          ]
+        },
+        {
+          "value": "12015. dr, marine marysville, wa",
+          "size": 4,
+          "sample_raw": [
+            "12015. MARINE DR, MARYSVILLE, WA"
+          ]
+        }
+      ]
+    }
+  },
+  "s2_misc": {
+    "sample_rows": 500000,
+    "addr_empty_pct": 3.37,
+    "country_distribution": {
+      "US": 299012,
+      "India": 200988
+    }
+  },
+  "s3_sample_name_collisions": {
+    "norm_current": {
+      "rows_nonempty": 499997,
+      "unique_values": 474654,
+      "collapse_pct": 5.07,
+      "collision_groups": 14664,
+      "rows_in_collisions": 40007,
+      "rows_in_collisions_pct": 8.0,
+      "max_group_size": 56,
+      "top_groups": [
+        {
+          "value": "primary care",
+          "size": 56,
+          "sample_raw": [
+            "Primary Care",
+            "Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "Physical  Therapy",
+            "... Physical Therapy",
+            "-- Physical  Therapy"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 45,
+          "sample_raw": [
+            "Womens Health",
+            "Womens  Health",
+            "... Womens Health"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 45,
+          "sample_raw": [
+            "Urgent Care",
+            "Urgent  Care",
+            "... Urgent Care"
+          ]
+        },
+        {
+          "value": "pediatric dental",
+          "size": 44,
+          "sample_raw": [
+            "Pediatric Dental",
+            "*** Pediatric Dental",
+            "Pediatric  Dental"
+          ]
+        },
+        {
+          "value": "pediatric dentistry",
+          "size": 36,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 35,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "Main Street",
+            "-- Main Street",
+            "Main  Street"
+          ]
+        },
+        {
+          "value": "commission on",
+          "size": 32,
+          "sample_raw": [
+            "Commission on",
+            "Commission On"
+          ]
+        },
+        {
+          "value": "back alley",
+          "size": 31,
+          "sample_raw": [
+            "Back Alley",
+            "Back  Alley"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 29,
+          "sample_raw": [
+            "Earnosethroat.Com",
+            "earnosethroat.com"
+          ]
+        },
+        {
+          "value": "office of",
+          "size": 29,
+          "sample_raw": [
+            "Office of",
+            "Office Of",
+            "Office  of"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 499997,
+      "unique_values": 471909,
+      "collapse_pct": 5.62,
+      "collision_groups": 16302,
+      "rows_in_collisions": 44390,
+      "rows_in_collisions_pct": 8.88,
+      "max_group_size": 56,
+      "top_groups": [
+        {
+          "value": "primary care",
+          "size": 56,
+          "sample_raw": [
+            "Primary Care",
+            "Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "Physical  Therapy",
+            "... Physical Therapy",
+            "-- Physical  Therapy"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 45,
+          "sample_raw": [
+            "Womens Health",
+            "Womens  Health",
+            "... Womens Health"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 45,
+          "sample_raw": [
+            "Urgent Care",
+            "Urgent  Care",
+            "... Urgent Care"
+          ]
+        },
+        {
+          "value": "pediatric dental",
+          "size": 44,
+          "sample_raw": [
+            "Pediatric Dental",
+            "*** Pediatric Dental",
+            "Pediatric  Dental"
+          ]
+        },
+        {
+          "value": "pediatric dentistry",
+          "size": 36,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 35,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "Main Street",
+            "-- Main Street",
+            "Main  Street"
+          ]
+        },
+        {
+          "value": "commission on",
+          "size": 32,
+          "sample_raw": [
+            "Commission on",
+            "Commission On"
+          ]
+        },
+        {
+          "value": "back alley",
+          "size": 31,
+          "sample_raw": [
+            "Back Alley",
+            "Back  Alley"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 29,
+          "sample_raw": [
+            "Earnosethroat.Com",
+            "earnosethroat.com"
+          ]
+        },
+        {
+          "value": "office of",
+          "size": 29,
+          "sample_raw": [
+            "Office of",
+            "Office Of",
+            "Office  of"
+          ]
+        }
+      ]
+    },
+    "no_suffix": {
+      "rows_nonempty": 499976,
+      "unique_values": 449871,
+      "collapse_pct": 10.02,
+      "collision_groups": 23238,
+      "rows_in_collisions": 73343,
+      "rows_in_collisions_pct": 14.67,
+      "max_group_size": 57,
+      "top_groups": [
+        {
+          "value": "primary care",
+          "size": 57,
+          "sample_raw": [
+            "Primary Care",
+            "Primary Care Inc",
+            "Primary  Care"
+          ]
+        },
+        {
+          "value": "summit",
+          "size": 49,
+          "sample_raw": [
+            "SUMMIT INC.",
+            "summit pllc",
+            "#Summit",
+            "Summit Inc.",
+            "Summit Llc"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 48,
+          "sample_raw": [
+            "Physical Therapy Inc",
+            "Physical Therapy",
+            "Physical Therapy LLC",
+            "Physical  Therapy",
+            "... Physical Therapy"
+          ]
+        },
+        {
+          "value": "urgent care",
+          "size": 48,
+          "sample_raw": [
+            "Urgent Care",
+            "Urgent Care LLC",
+            "Urgent  Care",
+            "Urgent Care Inc",
+            "... Urgent Care"
+          ]
+        },
+        {
+          "value": "meridian",
+          "size": 47,
+          "sample_raw": [
+            "Meridian",
+            "#meridian",
+            "Meridian LLC",
+            "Meridian PLLC",
+            "MERIDIAN INC."
+          ]
+        },
+        {
+          "value": "apex",
+          "size": 46,
+          "sample_raw": [
+            "Apex",
+            "Apex LLC",
+            "Apex Co",
+            "APEX",
+            "@apex"
+          ]
+        },
+        {
+          "value": "womens health",
+          "size": 46,
+          "sample_raw": [
+            "Womens Health",
+            "Womens  Health",
+            "... Womens Health",
+            "Womens Health Co"
+          ]
+        },
+        {
+          "value": "pediatric dental",
+          "size": 46,
+          "sample_raw": [
+            "Pediatric Dental",
+            "Pediatric Dental LLC",
+            "*** Pediatric Dental",
+            "Pediatric  Dental"
+          ]
+        },
+        {
+          "value": "cascade",
+          "size": 42,
+          "sample_raw": [
+            "Cascade",
+            "Cascade Inc",
+            "Inc Cascade",
+            "CASCADE",
+            "Cascade Inc."
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 40,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal Medicine Inc",
+            "Internal  Medicine",
+            "Internal Medicine LLC",
+            "Internal Medicine  Inc"
+          ]
+        },
+        {
+          "value": "pediatric dentistry",
+          "size": 40,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry",
+            "Pediatric Dentistry LLC"
+          ]
+        },
+        {
+          "value": "cornerstone",
+          "size": 39,
+          "sample_raw": [
+            "Cornerstone",
+            "cornerstone llc llc",
+            "Cornerstone  Inc",
+            "Cornerstone  Incorporated",
+            "Cornerstone Inc"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 499997,
+      "unique_values": 471775,
+      "collapse_pct": 5.64,
+      "collision_groups": 16401,
+      "rows_in_collisions": 44623,
+      "rows_in_collisions_pct": 8.92,
+      "max_group_size": 56,
+      "top_groups": [
+        {
+          "value": "care primary",
+          "size": 56,
+          "sample_raw": [
+            "Primary Care",
+            "Primary  Care"
+          ]
+        },
+        {
+          "value": "physical therapy",
+          "size": 46,
+          "sample_raw": [
+            "Physical Therapy",
+            "Physical  Therapy",
+            "... Physical Therapy",
+            "-- Physical  Therapy"
+          ]
+        },
+        {
+          "value": "health womens",
+          "size": 45,
+          "sample_raw": [
+            "Womens Health",
+            "Womens  Health",
+            "... Womens Health"
+          ]
+        },
+        {
+          "value": "care urgent",
+          "size": 45,
+          "sample_raw": [
+            "Urgent Care",
+            "Urgent  Care",
+            "... Urgent Care"
+          ]
+        },
+        {
+          "value": "dental pediatric",
+          "size": 44,
+          "sample_raw": [
+            "Pediatric Dental",
+            "*** Pediatric Dental",
+            "Pediatric  Dental"
+          ]
+        },
+        {
+          "value": "internal medicine",
+          "size": 36,
+          "sample_raw": [
+            "Internal Medicine",
+            "Internal  Medicine",
+            "*** Medicine Internal"
+          ]
+        },
+        {
+          "value": "dentistry pediatric",
+          "size": 36,
+          "sample_raw": [
+            "Pediatric Dentistry",
+            "Pediatric  Dentistry"
+          ]
+        },
+        {
+          "value": "main street",
+          "size": 32,
+          "sample_raw": [
+            "Main Street",
+            "-- Main Street",
+            "Main  Street"
+          ]
+        },
+        {
+          "value": "commission on",
+          "size": 32,
+          "sample_raw": [
+            "Commission on",
+            "Commission On"
+          ]
+        },
+        {
+          "value": "alley back",
+          "size": 31,
+          "sample_raw": [
+            "Back Alley",
+            "Back  Alley"
+          ]
+        },
+        {
+          "value": "earnosethroat.com",
+          "size": 29,
+          "sample_raw": [
+            "Earnosethroat.Com",
+            "earnosethroat.com"
+          ]
+        },
+        {
+          "value": "of office",
+          "size": 29,
+          "sample_raw": [
+            "Office of",
+            "Office Of",
+            "Office  of"
+          ]
+        }
+      ]
+    }
+  },
+  "s3_sample_address_collisions": {
+    "norm_current": {
+      "rows_nonempty": 483328,
+      "unique_values": 477788,
+      "collapse_pct": 1.15,
+      "collision_groups": 5331,
+      "rows_in_collisions": 10871,
+      "rows_in_collisions_pct": 2.25,
+      "max_group_size": 5,
+      "top_groups": [
+        {
+          "value": "floor, mumbai, mh",
+          "size": 5,
+          "sample_raw": [
+            "Floor, Mumbai, MH"
+          ]
+        },
+        {
+          "value": "no, bangalore, ka",
+          "size": 5,
+          "sample_raw": [
+            "No, Bangalore, KA",
+            "No, Bangalore, <NULL>, KA"
+          ]
+        },
+        {
+          "value": "2920 max loop, badger, alaska",
+          "size": 4,
+          "sample_raw": [
+            "2920 Max Loop, Badger, Alaska"
+          ]
+        },
+        {
+          "value": "1108 1340, orem, utah",
+          "size": 4,
+          "sample_raw": [
+            "1108 1340, Orem, Utah"
+          ]
+        },
+        {
+          "value": "18, kolkata, howrah, wb",
+          "size": 4,
+          "sample_raw": [
+            "18, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "41, kolkata, howrah, wb",
+          "size": 4,
+          "sample_raw": [
+            "41, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "b-205, thane, mh",
+          "size": 4,
+          "sample_raw": [
+            "B-205, Thane, MH"
+          ]
+        },
+        {
+          "value": "301, mumbai, mumbai city, mh",
+          "size": 4,
+          "sample_raw": [
+            "301, Mumbai, Mumbai City, MH",
+            "301, null, Mumbai, Mumbai City, MH"
+          ]
+        },
+        {
+          "value": "6556 cr 707, brazoria, texas",
+          "size": 4,
+          "sample_raw": [
+            "6556 Cr 707, Brazoria, Texas"
+          ]
+        },
+        {
+          "value": "115 young ave, cocnord, north carolina",
+          "size": 4,
+          "sample_raw": [
+            "115 Young Ave, Cocnord, North Carolina"
+          ]
+        },
+        {
+          "value": "#569 3 st, brooklyn, new york",
+          "size": 4,
+          "sample_raw": [
+            "#569 3 St, Brooklyn, New York"
+          ]
+        },
+        {
+          "value": "dreams park cat no. 13-18 morewasti chikhali, pune, mh",
+          "size": 4,
+          "sample_raw": [
+            "Dreams Park Cat No. 13-18 Morewasti Chikhali, Pune, MH"
+          ]
+        }
+      ]
+    },
+    "canon_current": {
+      "rows_nonempty": 483328,
+      "unique_values": 476181,
+      "collapse_pct": 1.48,
+      "collision_groups": 6812,
+      "rows_in_collisions": 13959,
+      "rows_in_collisions_pct": 2.89,
+      "max_group_size": 5,
+      "top_groups": [
+        {
+          "value": "204-c central avenue, searcy, arkansas",
+          "size": 5,
+          "sample_raw": [
+            "204-C Central Avenue, Searcy, Arkansas",
+            "204-C Central Ave, Searcy, Arkansas"
+          ]
+        },
+        {
+          "value": "floor, mumbai, mh",
+          "size": 5,
+          "sample_raw": [
+            "Floor, Mumbai, MH"
+          ]
+        },
+        {
+          "value": "no, bangalore, ka",
+          "size": 5,
+          "sample_raw": [
+            "No, Bangalore, KA",
+            "No, Bangalore, <NULL>, KA"
+          ]
+        },
+        {
+          "value": "2920 max loop, badger, alaska",
+          "size": 4,
+          "sample_raw": [
+            "2920 Max Loop, Badger, Alaska"
+          ]
+        },
+        {
+          "value": "1108 1340, orem, utah",
+          "size": 4,
+          "sample_raw": [
+            "1108 1340, Orem, Utah"
+          ]
+        },
+        {
+          "value": "18, kolkata, howrah, wb",
+          "size": 4,
+          "sample_raw": [
+            "18, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "1602 craycroft road, tucson, arizona",
+          "size": 4,
+          "sample_raw": [
+            "1602 Craycroft Road, Tucson, Arizona",
+            "1602 Craycroft Rd, Tucson, Arizona"
+          ]
+        },
+        {
+          "value": "41, kolkata, howrah, wb",
+          "size": 4,
+          "sample_raw": [
+            "41, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "b-205, thane, mh",
+          "size": 4,
+          "sample_raw": [
+            "B-205, Thane, MH"
+          ]
+        },
+        {
+          "value": "122 newberry avenue, po box 5970, libertyville, illinois",
+          "size": 4,
+          "sample_raw": [
+            "122 Newberry Avenue, PO Box 5970, Libertyville, Illinois",
+            "122 Newberry Ave, PO Box 5970, Libertyville, Illinois"
+          ]
+        },
+        {
+          "value": "259 shore road, lake pleaant, new york",
+          "size": 4,
+          "sample_raw": [
+            "259 Shore Road, Lake Pleaant, New York",
+            "259 Shore Rd, Lake Pleaant, New York"
+          ]
+        },
+        {
+          "value": "10507 1/2 bellrose street, florence, arizona",
+          "size": 4,
+          "sample_raw": [
+            "10507 1/2 Bellrose Street, Florence, Arizona",
+            "10507 1/2 Bellrose St, Florence, Arizona"
+          ]
+        }
+      ]
+    },
+    "no_digits": {
+      "rows_nonempty": 483328,
+      "unique_values": 456129,
+      "collapse_pct": 5.63,
+      "collision_groups": 15817,
+      "rows_in_collisions": 43016,
+      "rows_in_collisions_pct": 8.9,
+      "max_group_size": 157,
+      "top_groups": [
+        {
+          "value": ", mumbai, mh",
+          "size": 157,
+          "sample_raw": [
+            "1902, Mumbai, MH",
+            "803, Mumbai, MH",
+            "6, Mumbai, MH",
+            "502, Mumbai, MH",
+            "409, Mumbai, MH"
+          ]
+        },
+        {
+          "value": ", mumbai, mumbai city, mh",
+          "size": 130,
+          "sample_raw": [
+            "307, Mumbai, Mumbai City, MH",
+            "4, Mumbai, Mumbai City, MH",
+            "511, Mumbai, Mumbai City, MH",
+            "001, Mumbai, Mumbai City, MH",
+            "101, Mumbai, Mumbai City, MH"
+          ]
+        },
+        {
+          "value": ", ahmedabad, gj",
+          "size": 109,
+          "sample_raw": [
+            "402, Ahmedabad, GJ",
+            "703, Ahmedabad, GJ",
+            "518, Ahmedabad, GJ",
+            "310, Ahmedabad, GJ",
+            "119, Ahmedabad, GJ"
+          ]
+        },
+        {
+          "value": ", bangalore, ka",
+          "size": 104,
+          "sample_raw": [
+            "32, Bangalore, KA",
+            "134, Bangalore, KA",
+            "3488, Bangalore, KA",
+            "4073, Bangalore, KA",
+            "132, Bangalore, KA"
+          ]
+        },
+        {
+          "value": "st, brooklyn, new york",
+          "size": 92,
+          "sample_raw": [
+            "15 21 St, Brooklyn, New York",
+            "213 89 St, Brooklyn, New York",
+            "342 32 St, Brooklyn, New York",
+            "1439 41 St, Brooklyn, New York",
+            "211 23 St, Brooklyn, New York"
+          ]
+        },
+        {
+          "value": ", kolkata, howrah, wb",
+          "size": 90,
+          "sample_raw": [
+            "759 909, Kolkata, Howrah, WB",
+            "18, Kolkata, Howrah, WB",
+            "41, Kolkata, Howrah, WB",
+            "113, Kolkata, Howrah, WB",
+            "163, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "no. , bangalore, ka",
+          "size": 88,
+          "sample_raw": [
+            "No.97, Bangalore, KA",
+            "No.19, Bangalore, KA",
+            "No. 9, Bangalore, KA",
+            "No.16, Bangalore, KA",
+            "No. 19, Bangalore, KA"
+          ]
+        },
+        {
+          "value": "street, brooklyn, new york",
+          "size": 72,
+          "sample_raw": [
+            "939 26 Street, Brooklyn, New York",
+            "058 29 Street, Brooklyn, New York",
+            "377 3 Street, Brooklyn, New York",
+            "1855 73 Street, Brooklyn, New York",
+            "1869 12 Street, Brooklyn, New York"
+          ]
+        },
+        {
+          "value": ", jaipur, rj",
+          "size": 71,
+          "sample_raw": [
+            "57, Jaipur, RJ",
+            "123, Jaipur, RJ",
+            "198, Jaipur, RJ",
+            "135, Jaipur, RJ",
+            "19, Jaipur, RJ"
+          ]
+        },
+        {
+          "value": "# , bangalore, ka",
+          "size": 66,
+          "sample_raw": [
+            "#411, Bangalore, KA",
+            "#55, Bangalore, KA",
+            "# 23, Bangalore, KA",
+            "#6716, Bangalore, KA",
+            "#54, Bangalore, KA"
+          ]
+        },
+        {
+          "value": "no , bangalore, ka",
+          "size": 64,
+          "sample_raw": [
+            "No 30, Bangalore, NULL, KA",
+            "No 110, Bangalore, KA",
+            "No 435, <NULL>, Bangalore, KA",
+            "No 0307, Bangalore, KA",
+            "No 526, Bangalore, KA"
+          ]
+        },
+        {
+          "value": ", salt lake city, utah",
+          "size": 63,
+          "sample_raw": [
+            "828 600, Salt Lake City, Utah",
+            "2750 900, Salt Lake City, Utah",
+            "4128 500, Salt Lake City, Utah",
+            "1367 100, Salt Lake City, Utah",
+            "700, Salt Lake City, Utah"
+          ]
+        }
+      ]
+    },
+    "sorted_tokens": {
+      "rows_nonempty": 483328,
+      "unique_values": 476871,
+      "collapse_pct": 1.34,
+      "collision_groups": 6186,
+      "rows_in_collisions": 12643,
+      "rows_in_collisions_pct": 2.62,
+      "max_group_size": 5,
+      "top_groups": [
+        {
+          "value": "301, city, mh mumbai mumbai,",
+          "size": 5,
+          "sample_raw": [
+            "301, Mumbai, Mumbai City, MH",
+            "301, Mumbai City, Mumbai, MH",
+            "301, null, Mumbai, Mumbai City, MH"
+          ]
+        },
+        {
+          "value": "floor, mh mumbai,",
+          "size": 5,
+          "sample_raw": [
+            "Floor, Mumbai, MH"
+          ]
+        },
+        {
+          "value": "bangalore, ka no,",
+          "size": 5,
+          "sample_raw": [
+            "No, Bangalore, KA",
+            "No, Bangalore, <NULL>, KA"
+          ]
+        },
+        {
+          "value": "2920 alaska badger, loop, max",
+          "size": 4,
+          "sample_raw": [
+            "2920 Max Loop, Badger, Alaska"
+          ]
+        },
+        {
+          "value": "1108 1340, orem, utah",
+          "size": 4,
+          "sample_raw": [
+            "1108 1340, Orem, Utah"
+          ]
+        },
+        {
+          "value": "city, floor, ground mh mumbai mumbai,",
+          "size": 4,
+          "sample_raw": [
+            "Ground Floor, Mumbai, Mumbai City, MH",
+            "Mumbai, Mumbai City, Ground Floor, MH"
+          ]
+        },
+        {
+          "value": "18, howrah, kolkata, wb",
+          "size": 4,
+          "sample_raw": [
+            "18, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "41, howrah, kolkata, wb",
+          "size": 4,
+          "sample_raw": [
+            "41, Kolkata, Howrah, WB"
+          ]
+        },
+        {
+          "value": "b-205, mh thane,",
+          "size": 4,
+          "sample_raw": [
+            "B-205, Thane, MH"
+          ]
+        },
+        {
+          "value": "delhi, dl east, f-123, north",
+          "size": 4,
+          "sample_raw": [
+            "F-123, Delhi, North East, DL",
+            "F-123, North East, Delhi, DL"
+          ]
+        },
+        {
+          "value": "101, city, mh mumbai mumbai,",
+          "size": 4,
+          "sample_raw": [
+            "101, Mumbai, Mumbai City, MH",
+            "101, Mumbai City, Mumbai, MH"
+          ]
+        },
+        {
+          "value": "6556 707, brazoria, cr texas",
+          "size": 4,
+          "sample_raw": [
+            "6556 Cr 707, Brazoria, Texas"
+          ]
+        }
+      ]
+    }
+  },
+  "s3_misc": {
+    "sample_rows": 500000,
+    "addr_empty_pct": 3.33,
+    "country_distribution": {
+      "US": 299704,
+      "India": 200296
+    }
+  },
+  "positive_pair_similarity": {
+    "addr.canon.contain": {
+      "n": 100000,
+      "mean": 0.7152,
+      "p05": 0.2,
+      "p25": 0.6,
+      "p50": 0.8,
+      "p75": 0.8889,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2334,
+      "frac_ge_0.95": 0.1706,
+      "frac_eq_1.0": 0.1696
+    },
+    "addr.canon.exact": {
+      "n": 100000,
+      "mean": 0.095,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.095,
+      "frac_ge_0.95": 0.095,
+      "frac_eq_1.0": 0.095
+    },
+    "addr.canon.jaccard": {
+      "n": 100000,
+      "mean": 0.5531,
+      "p05": 0.0833,
+      "p25": 0.375,
+      "p50": 0.5556,
+      "p75": 0.7333,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1193,
+      "frac_ge_0.95": 0.106,
+      "frac_eq_1.0": 0.1058
+    },
+    "addr.canon.ratio": {
+      "n": 100000,
+      "mean": 0.7627,
+      "p05": 0.303,
+      "p25": 0.6582,
+      "p50": 0.8395,
+      "p75": 0.9275,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.337,
+      "frac_ge_0.95": 0.1859,
+      "frac_eq_1.0": 0.095
+    },
+    "addr.digits.agreement": {
+      "n": 97024,
+      "mean": 0.7277,
+      "p05": 0.0,
+      "p25": 0.5,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.6203,
+      "frac_ge_0.95": 0.6202,
+      "frac_eq_1.0": 0.6202
+    },
+    "addr.digits.any": {
+      "n": 100000,
+      "mean": 0.9702,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.9702,
+      "frac_ge_0.95": 0.9702,
+      "frac_eq_1.0": 0.9702
+    },
+    "addr.empty_either": {
+      "n": 100000,
+      "mean": 0.0435,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0435,
+      "frac_ge_0.95": 0.0435,
+      "frac_eq_1.0": 0.0435
+    },
+    "addr.nodig.contain": {
+      "n": 100000,
+      "mean": 0.6978,
+      "p05": 0.2,
+      "p25": 0.5,
+      "p50": 0.75,
+      "p75": 0.8889,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2484,
+      "frac_ge_0.95": 0.1761,
+      "frac_eq_1.0": 0.1751
+    },
+    "addr.nodig.exact": {
+      "n": 100000,
+      "mean": 0.0927,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0927,
+      "frac_ge_0.95": 0.0927,
+      "frac_eq_1.0": 0.0927
+    },
+    "addr.nodig.jaccard": {
+      "n": 100000,
+      "mean": 0.534,
+      "p05": 0.0909,
+      "p25": 0.3333,
+      "p50": 0.5455,
+      "p75": 0.7368,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1257,
+      "frac_ge_0.95": 0.1047,
+      "frac_eq_1.0": 0.1044
+    },
+    "addr.nodig.ratio": {
+      "n": 100000,
+      "mean": 0.7523,
+      "p05": 0.2982,
+      "p25": 0.6392,
+      "p50": 0.8254,
+      "p75": 0.92,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.309,
+      "frac_ge_0.95": 0.1681,
+      "frac_eq_1.0": 0.0927
+    },
+    "addr.norm.contain": {
+      "n": 100000,
+      "mean": 0.6899,
+      "p05": 0.2,
+      "p25": 0.6,
+      "p50": 0.75,
+      "p75": 0.8571,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2032,
+      "frac_ge_0.95": 0.1404,
+      "frac_eq_1.0": 0.1394
+    },
+    "addr.norm.exact": {
+      "n": 100000,
+      "mean": 0.0764,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0764,
+      "frac_ge_0.95": 0.0764,
+      "frac_eq_1.0": 0.0764
+    },
+    "addr.norm.jaccard": {
+      "n": 100000,
+      "mean": 0.5257,
+      "p05": 0.0833,
+      "p25": 0.3333,
+      "p50": 0.5,
+      "p75": 0.7143,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0993,
+      "frac_ge_0.95": 0.086,
+      "frac_eq_1.0": 0.0858
+    },
+    "addr.norm.ratio": {
+      "n": 100000,
+      "mean": 0.7557,
+      "p05": 0.3036,
+      "p25": 0.6517,
+      "p50": 0.8305,
+      "p75": 0.9209,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.3136,
+      "frac_ge_0.95": 0.1647,
+      "frac_eq_1.0": 0.0764
+    },
+    "addr.norm.token_set": {
+      "n": 100000,
+      "mean": 0.8538,
+      "p05": 0.5185,
+      "p25": 0.8312,
+      "p50": 0.913,
+      "p75": 0.9649,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.5533,
+      "frac_ge_0.95": 0.3343,
+      "frac_eq_1.0": 0.1394
+    },
+    "addr.postal.both_present": {
+      "n": 100000,
+      "mean": 0.0545,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0545,
+      "frac_ge_0.95": 0.0545,
+      "frac_eq_1.0": 0.0545
+    },
+    "addr.postal.equal": {
+      "n": 5454,
+      "mean": 0.9371,
+      "p05": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.9371,
+      "frac_ge_0.95": 0.9371,
+      "frac_eq_1.0": 0.9371
+    },
+    "addr.raw.contain": {
+      "n": 100000,
+      "mean": 0.4423,
+      "p05": 0.0,
+      "p25": 0.2,
+      "p50": 0.4,
+      "p75": 0.6667,
+      "p95": 0.8889,
+      "frac_ge_0.90": 0.0474,
+      "frac_ge_0.95": 0.0262,
+      "frac_eq_1.0": 0.0258
+    },
+    "addr.raw.exact": {
+      "n": 100000,
+      "mean": 0.0224,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0224,
+      "frac_ge_0.95": 0.0224,
+      "frac_eq_1.0": 0.0224
+    },
+    "addr.raw.jaccard": {
+      "n": 100000,
+      "mean": 0.3009,
+      "p05": 0.0,
+      "p25": 0.1111,
+      "p50": 0.25,
+      "p75": 0.4444,
+      "p95": 0.7647,
+      "frac_ge_0.90": 0.0256,
+      "frac_ge_0.95": 0.0248,
+      "frac_eq_1.0": 0.0248
+    },
+    "addr.raw.ratio": {
+      "n": 100000,
+      "mean": 0.5623,
+      "p05": 0.2,
+      "p25": 0.4,
+      "p50": 0.5161,
+      "p75": 0.7912,
+      "p95": 0.9249,
+      "frac_ge_0.90": 0.0815,
+      "frac_ge_0.95": 0.0298,
+      "frac_eq_1.0": 0.0224
+    },
+    "addr.sorted.contain": {
+      "n": 100000,
+      "mean": 0.6899,
+      "p05": 0.2,
+      "p25": 0.6,
+      "p50": 0.75,
+      "p75": 0.8571,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2032,
+      "frac_ge_0.95": 0.1404,
+      "frac_eq_1.0": 0.1394
+    },
+    "addr.sorted.exact": {
+      "n": 100000,
+      "mean": 0.0838,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0838,
+      "frac_ge_0.95": 0.0838,
+      "frac_eq_1.0": 0.0838
+    },
+    "addr.sorted.jaccard": {
+      "n": 100000,
+      "mean": 0.5257,
+      "p05": 0.0833,
+      "p25": 0.3333,
+      "p50": 0.5,
+      "p75": 0.7143,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.0993,
+      "frac_ge_0.95": 0.086,
+      "frac_eq_1.0": 0.0858
+    },
+    "addr.sorted.ratio": {
+      "n": 100000,
+      "mean": 0.8058,
+      "p05": 0.3333,
+      "p25": 0.7692,
+      "p50": 0.871,
+      "p75": 0.9378,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.3999,
+      "frac_ge_0.95": 0.2077,
+      "frac_eq_1.0": 0.0838
+    },
+    "country.equal": {
+      "n": 100000,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.canon.contain": {
+      "n": 100000,
+      "mean": 0.7221,
+      "p05": 0.0,
+      "p25": 0.6667,
+      "p50": 0.8,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4845,
+      "frac_ge_0.95": 0.4845,
+      "frac_eq_1.0": 0.4845
+    },
+    "name.canon.exact": {
+      "n": 100000,
+      "mean": 0.1931,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1931,
+      "frac_ge_0.95": 0.1931,
+      "frac_eq_1.0": 0.1931
+    },
+    "name.canon.jaccard": {
+      "n": 100000,
+      "mean": 0.5833,
+      "p05": 0.0,
+      "p25": 0.4,
+      "p50": 0.6,
+      "p75": 0.8333,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2484,
+      "frac_ge_0.95": 0.2484,
+      "frac_eq_1.0": 0.2484
+    },
+    "name.canon.ratio": {
+      "n": 100000,
+      "mean": 0.7798,
+      "p05": 0.1053,
+      "p25": 0.7037,
+      "p50": 0.8462,
+      "p75": 0.96,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4025,
+      "frac_ge_0.95": 0.2826,
+      "frac_eq_1.0": 0.1931
+    },
+    "name.norm.contain": {
+      "n": 100000,
+      "mean": 0.7086,
+      "p05": 0.0,
+      "p25": 0.6,
+      "p50": 0.75,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4409,
+      "frac_ge_0.95": 0.4409,
+      "frac_eq_1.0": 0.4409
+    },
+    "name.norm.exact": {
+      "n": 100000,
+      "mean": 0.1603,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1603,
+      "frac_ge_0.95": 0.1603,
+      "frac_eq_1.0": 0.1603
+    },
+    "name.norm.jaccard": {
+      "n": 100000,
+      "mean": 0.5638,
+      "p05": 0.0,
+      "p25": 0.3333,
+      "p50": 0.6,
+      "p75": 0.75,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2092,
+      "frac_ge_0.95": 0.2091,
+      "frac_eq_1.0": 0.2091
+    },
+    "name.norm.ratio": {
+      "n": 100000,
+      "mean": 0.7877,
+      "p05": 0.1071,
+      "p25": 0.7213,
+      "p50": 0.8667,
+      "p75": 0.95,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4234,
+      "frac_ge_0.95": 0.2551,
+      "frac_eq_1.0": 0.1603
+    },
+    "name.norm.token_set": {
+      "n": 100000,
+      "mean": 0.8476,
+      "p05": 0.1071,
+      "p25": 0.8421,
+      "p50": 0.963,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.6709,
+      "frac_ge_0.95": 0.545,
+      "frac_eq_1.0": 0.4409
+    },
+    "name.nosuf.contain": {
+      "n": 100000,
+      "mean": 0.7188,
+      "p05": 0.0,
+      "p25": 0.5,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.5539,
+      "frac_ge_0.95": 0.5539,
+      "frac_eq_1.0": 0.5539
+    },
+    "name.nosuf.exact": {
+      "n": 100000,
+      "mean": 0.3512,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.3512,
+      "frac_ge_0.95": 0.3512,
+      "frac_eq_1.0": 0.3512
+    },
+    "name.nosuf.jaccard": {
+      "n": 100000,
+      "mean": 0.6074,
+      "p05": 0.0,
+      "p25": 0.3333,
+      "p50": 0.6667,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.3787,
+      "frac_ge_0.95": 0.3787,
+      "frac_eq_1.0": 0.3787
+    },
+    "name.nosuf.ratio": {
+      "n": 100000,
+      "mean": 0.8092,
+      "p05": 0.0588,
+      "p25": 0.7429,
+      "p50": 0.9048,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.512,
+      "frac_ge_0.95": 0.409,
+      "frac_eq_1.0": 0.3512
+    },
+    "name.raw.contain": {
+      "n": 100000,
+      "mean": 0.59,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.75,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.3308,
+      "frac_ge_0.95": 0.3307,
+      "frac_eq_1.0": 0.3307
+    },
+    "name.raw.exact": {
+      "n": 100000,
+      "mean": 0.0461,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0461,
+      "frac_ge_0.95": 0.0461,
+      "frac_eq_1.0": 0.0461
+    },
+    "name.raw.jaccard": {
+      "n": 100000,
+      "mean": 0.4541,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.5,
+      "p75": 0.6667,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1267,
+      "frac_ge_0.95": 0.1267,
+      "frac_eq_1.0": 0.1267
+    },
+    "name.raw.ratio": {
+      "n": 100000,
+      "mean": 0.6982,
+      "p05": 0.1053,
+      "p25": 0.5641,
+      "p50": 0.8095,
+      "p75": 0.9231,
+      "p95": 0.9859,
+      "frac_ge_0.90": 0.3191,
+      "frac_ge_0.95": 0.1669,
+      "frac_eq_1.0": 0.0461
+    },
+    "name.script_mismatch": {
+      "n": 100000,
+      "mean": 0.1389,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1389,
+      "frac_ge_0.95": 0.1389,
+      "frac_eq_1.0": 0.1389
+    },
+    "name.sorted.contain": {
+      "n": 100000,
+      "mean": 0.7086,
+      "p05": 0.0,
+      "p25": 0.6,
+      "p50": 0.75,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4409,
+      "frac_ge_0.95": 0.4409,
+      "frac_eq_1.0": 0.4409
+    },
+    "name.sorted.exact": {
+      "n": 100000,
+      "mean": 0.2026,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2026,
+      "frac_ge_0.95": 0.2026,
+      "frac_eq_1.0": 0.2026
+    },
+    "name.sorted.jaccard": {
+      "n": 100000,
+      "mean": 0.5638,
+      "p05": 0.0,
+      "p25": 0.3333,
+      "p50": 0.6,
+      "p75": 0.75,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.2092,
+      "frac_ge_0.95": 0.2091,
+      "frac_eq_1.0": 0.2091
+    },
+    "name.sorted.ratio": {
+      "n": 100000,
+      "mean": 0.7791,
+      "p05": 0.1071,
+      "p25": 0.6957,
+      "p50": 0.8679,
+      "p75": 0.96,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.4308,
+      "frac_ge_0.95": 0.2769,
+      "frac_eq_1.0": 0.2026
+    }
+  },
+  "negative_random_similarity": {
+    "addr.canon.contain": {
+      "n": 50000,
+      "mean": 0.0173,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1667,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.jaccard": {
+      "n": 50000,
+      "mean": 0.0079,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0769,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.ratio": {
+      "n": 50000,
+      "mean": 0.3197,
+      "p05": 0.1923,
+      "p25": 0.2838,
+      "p50": 0.3252,
+      "p75": 0.3704,
+      "p95": 0.4478,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.digits.agreement": {
+      "n": 49790,
+      "mean": 0.0059,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0005,
+      "frac_ge_0.95": 0.0005,
+      "frac_eq_1.0": 0.0005
+    },
+    "addr.digits.any": {
+      "n": 50000,
+      "mean": 0.9958,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.9958,
+      "frac_ge_0.95": 0.9958,
+      "frac_eq_1.0": 0.9958
+    },
+    "addr.empty_either": {
+      "n": 50000,
+      "mean": 0.0459,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0459,
+      "frac_ge_0.95": 0.0459,
+      "frac_eq_1.0": 0.0459
+    },
+    "addr.nodig.contain": {
+      "n": 50000,
+      "mean": 0.0312,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.2308,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.jaccard": {
+      "n": 50000,
+      "mean": 0.0132,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0909,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.ratio": {
+      "n": 50000,
+      "mean": 0.324,
+      "p05": 0.1864,
+      "p25": 0.2857,
+      "p50": 0.3333,
+      "p75": 0.377,
+      "p95": 0.45,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.contain": {
+      "n": 50000,
+      "mean": 0.0134,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1429,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.jaccard": {
+      "n": 50000,
+      "mean": 0.0061,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0588,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.ratio": {
+      "n": 50000,
+      "mean": 0.3175,
+      "p05": 0.1905,
+      "p25": 0.2824,
+      "p50": 0.3238,
+      "p75": 0.3684,
+      "p95": 0.4407,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.token_set": {
+      "n": 50000,
+      "mean": 0.3223,
+      "p05": 0.1955,
+      "p25": 0.2895,
+      "p50": 0.3294,
+      "p75": 0.3714,
+      "p95": 0.4444,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.postal.both_present": {
+      "n": 50000,
+      "mean": 0.0051,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0051,
+      "frac_ge_0.95": 0.0051,
+      "frac_eq_1.0": 0.0051
+    },
+    "addr.postal.equal": {
+      "n": 254,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.contain": {
+      "n": 50000,
+      "mean": 0.0043,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.jaccard": {
+      "n": 50000,
+      "mean": 0.002,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.ratio": {
+      "n": 50000,
+      "mean": 0.2064,
+      "p05": 0.1129,
+      "p25": 0.1752,
+      "p50": 0.2083,
+      "p75": 0.2452,
+      "p95": 0.3051,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.contain": {
+      "n": 50000,
+      "mean": 0.0134,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1429,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.jaccard": {
+      "n": 50000,
+      "mean": 0.0061,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0588,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.ratio": {
+      "n": 50000,
+      "mean": 0.3191,
+      "p05": 0.1923,
+      "p25": 0.2857,
+      "p50": 0.3279,
+      "p75": 0.3692,
+      "p95": 0.4356,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "country.equal": {
+      "n": 50000,
+      "mean": 0.5202,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.5202,
+      "frac_ge_0.95": 0.5202,
+      "frac_eq_1.0": 0.5202
+    },
+    "name.canon.contain": {
+      "n": 50000,
+      "mean": 0.0329,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.3333,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.canon.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.canon.jaccard": {
+      "n": 50000,
+      "mean": 0.018,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1667,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.canon.ratio": {
+      "n": 50000,
+      "mean": 0.3114,
+      "p05": 0.0833,
+      "p25": 0.2564,
+      "p50": 0.3137,
+      "p75": 0.3704,
+      "p95": 0.5106,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.norm.contain": {
+      "n": 50000,
+      "mean": 0.0214,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.25,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.norm.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.norm.jaccard": {
+      "n": 50000,
+      "mean": 0.0115,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1429,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.norm.ratio": {
+      "n": 50000,
+      "mean": 0.3005,
+      "p05": 0.0857,
+      "p25": 0.25,
+      "p50": 0.3077,
+      "p75": 0.36,
+      "p95": 0.4615,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.norm.token_set": {
+      "n": 50000,
+      "mean": 0.3018,
+      "p05": 0.0857,
+      "p25": 0.25,
+      "p50": 0.3077,
+      "p75": 0.3607,
+      "p95": 0.4688,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.nosuf.contain": {
+      "n": 50000,
+      "mean": 0.0031,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.nosuf.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.nosuf.jaccard": {
+      "n": 50000,
+      "mean": 0.0016,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.nosuf.ratio": {
+      "n": 50000,
+      "mean": 0.2749,
+      "p05": 0.0625,
+      "p25": 0.2264,
+      "p50": 0.2857,
+      "p75": 0.3404,
+      "p95": 0.4167,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.raw.contain": {
+      "n": 50000,
+      "mean": 0.0165,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.raw.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.raw.jaccard": {
+      "n": 50000,
+      "mean": 0.0087,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.raw.ratio": {
+      "n": 50000,
+      "mean": 0.2374,
+      "p05": 0.0714,
+      "p25": 0.1538,
+      "p50": 0.2424,
+      "p75": 0.3077,
+      "p95": 0.4103,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.script_mismatch": {
+      "n": 50000,
+      "mean": 0.1579,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.1579,
+      "frac_ge_0.95": 0.1579,
+      "frac_eq_1.0": 0.1579
+    },
+    "name.sorted.contain": {
+      "n": 50000,
+      "mean": 0.0214,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.25,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.sorted.exact": {
+      "n": 50000,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.sorted.jaccard": {
+      "n": 50000,
+      "mean": 0.0115,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1429,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.sorted.ratio": {
+      "n": 50000,
+      "mean": 0.2977,
+      "p05": 0.0857,
+      "p25": 0.25,
+      "p50": 0.3077,
+      "p75": 0.359,
+      "p95": 0.45,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    }
+  },
+  "negative_hard_similarity": {
+    "addr.canon.contain": {
+      "n": 17664,
+      "mean": 0.0384,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.2,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.exact": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.jaccard": {
+      "n": 17664,
+      "mean": 0.0183,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1053,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.canon.ratio": {
+      "n": 17664,
+      "mean": 0.3814,
+      "p05": 0.2941,
+      "p25": 0.3411,
+      "p50": 0.3738,
+      "p75": 0.411,
+      "p95": 0.5,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.digits.agreement": {
+      "n": 17562,
+      "mean": 0.0148,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0006,
+      "frac_ge_0.95": 0.0006,
+      "frac_eq_1.0": 0.0006
+    },
+    "addr.digits.any": {
+      "n": 17664,
+      "mean": 0.9942,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.9942,
+      "frac_ge_0.95": 0.9942,
+      "frac_eq_1.0": 0.9942
+    },
+    "addr.empty_either": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.contain": {
+      "n": 17664,
+      "mean": 0.07,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.125,
+      "p95": 0.2857,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.exact": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.jaccard": {
+      "n": 17664,
+      "mean": 0.0333,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0526,
+      "p95": 0.1429,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.nodig.ratio": {
+      "n": 17664,
+      "mean": 0.3934,
+      "p05": 0.3051,
+      "p25": 0.3529,
+      "p50": 0.3846,
+      "p75": 0.4219,
+      "p95": 0.5185,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.contain": {
+      "n": 17664,
+      "mean": 0.0378,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.2,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.exact": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.jaccard": {
+      "n": 17664,
+      "mean": 0.018,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1053,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.ratio": {
+      "n": 17664,
+      "mean": 0.3812,
+      "p05": 0.2938,
+      "p25": 0.3407,
+      "p50": 0.3735,
+      "p75": 0.411,
+      "p95": 0.5,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.norm.token_set": {
+      "n": 17664,
+      "mean": 0.3861,
+      "p05": 0.2979,
+      "p25": 0.3438,
+      "p50": 0.3758,
+      "p75": 0.4154,
+      "p95": 0.5122,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.postal.both_present": {
+      "n": 17664,
+      "mean": 0.0053,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0053,
+      "frac_ge_0.95": 0.0053,
+      "frac_eq_1.0": 0.0053
+    },
+    "addr.postal.equal": {
+      "n": 93,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.contain": {
+      "n": 17664,
+      "mean": 0.0378,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.2,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.exact": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.jaccard": {
+      "n": 17664,
+      "mean": 0.018,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1053,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.raw.ratio": {
+      "n": 17664,
+      "mean": 0.3552,
+      "p05": 0.2637,
+      "p25": 0.3137,
+      "p50": 0.3459,
+      "p75": 0.3864,
+      "p95": 0.4839,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.contain": {
+      "n": 17664,
+      "mean": 0.0378,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.2,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.exact": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.jaccard": {
+      "n": 17664,
+      "mean": 0.018,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.1053,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "addr.sorted.ratio": {
+      "n": 17664,
+      "mean": 0.3803,
+      "p05": 0.2979,
+      "p25": 0.3425,
+      "p50": 0.3731,
+      "p75": 0.4082,
+      "p95": 0.4923,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "country.equal": {
+      "n": 17664,
+      "mean": 0.9981,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.9981,
+      "frac_ge_0.95": 0.9981,
+      "frac_eq_1.0": 0.9981
+    },
+    "name.canon.contain": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.canon.exact": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.canon.jaccard": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.canon.ratio": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.norm.contain": {
+      "n": 17664,
+      "mean": 0.924,
+      "p05": 0.5,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.norm.exact": {
+      "n": 17664,
+      "mean": 0.8409,
+      "p05": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.norm.jaccard": {
+      "n": 17664,
+      "mean": 0.8976,
+      "p05": 0.3333,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.norm.ratio": {
+      "n": 17664,
+      "mean": 0.9778,
+      "p05": 0.84,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8599,
+      "frac_ge_0.95": 0.8564,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.norm.token_set": {
+      "n": 17664,
+      "mean": 0.9778,
+      "p05": 0.84,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8604,
+      "frac_ge_0.95": 0.8564,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.nosuf.contain": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.nosuf.exact": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.nosuf.jaccard": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.nosuf.ratio": {
+      "n": 17664,
+      "mean": 1.0,
+      "p05": 1.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 1.0,
+      "frac_ge_0.95": 1.0,
+      "frac_eq_1.0": 1.0
+    },
+    "name.raw.contain": {
+      "n": 17664,
+      "mean": 0.9239,
+      "p05": 0.5,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8405,
+      "frac_ge_0.95": 0.8405,
+      "frac_eq_1.0": 0.8405
+    },
+    "name.raw.exact": {
+      "n": 17664,
+      "mean": 0.8405,
+      "p05": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8405,
+      "frac_ge_0.95": 0.8405,
+      "frac_eq_1.0": 0.8405
+    },
+    "name.raw.jaccard": {
+      "n": 17664,
+      "mean": 0.8975,
+      "p05": 0.3333,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8405,
+      "frac_ge_0.95": 0.8405,
+      "frac_eq_1.0": 0.8405
+    },
+    "name.raw.ratio": {
+      "n": 17664,
+      "mean": 0.9778,
+      "p05": 0.84,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8599,
+      "frac_ge_0.95": 0.8563,
+      "frac_eq_1.0": 0.8405
+    },
+    "name.script_mismatch": {
+      "n": 17664,
+      "mean": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p95": 0.0,
+      "frac_ge_0.90": 0.0,
+      "frac_ge_0.95": 0.0,
+      "frac_eq_1.0": 0.0
+    },
+    "name.sorted.contain": {
+      "n": 17664,
+      "mean": 0.924,
+      "p05": 0.5,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.sorted.exact": {
+      "n": 17664,
+      "mean": 0.8409,
+      "p05": 0.0,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.sorted.jaccard": {
+      "n": 17664,
+      "mean": 0.8976,
+      "p05": 0.3333,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8409,
+      "frac_ge_0.95": 0.8409,
+      "frac_eq_1.0": 0.8409
+    },
+    "name.sorted.ratio": {
+      "n": 17664,
+      "mean": 0.9759,
+      "p05": 0.8333,
+      "p25": 1.0,
+      "p50": 1.0,
+      "p75": 1.0,
+      "p95": 1.0,
+      "frac_ge_0.90": 0.8597,
+      "frac_ge_0.95": 0.8564,
+      "frac_eq_1.0": 0.8409
+    }
+  },
+  "meta": {
+    "seed": 42,
+    "gt_total_pairs": 7638365,
+    "pos_pairs_scored": 100000,
+    "neg_random_scored": 50000,
+    "neg_hard_scored": 17664,
+    "s23_sample": 500000,
+    "duration_seconds": 874.4
+  }
+}

@@ -137,8 +137,7 @@ def main(argv=None) -> int:
 
     try:
         processor.run(
-            code="preprocess.py",
-            source_dir="src",
+            code="src/preprocess.py",
             inputs=inputs,
             outputs=outputs,
             arguments=[
