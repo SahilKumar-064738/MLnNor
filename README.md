@@ -189,6 +189,7 @@ Section 14).
 
 The pipeline enforces these invariants itself during the run (fatal error,
 non-zero exit, no output written, if violated):
+
 - `input_rows == output_rows` for every one of the 7 files
 - the input and output `entity_id` sets are exactly equal (not just equal
   in count — a swap would still be caught)
@@ -248,16 +249,16 @@ aws s3 cp s3://<your-bucket>/entity-resolution/metadata/preprocessing_report.jso
 
 ## 15. Troubleshooting
 
-| Symptom | Likely cause | Fix |
-|---|---|---|
-| `ERROR: schema mismatch for ...` | Wrong file in the wrong split/source slot, or upstream export changed columns | Re-check the file's header row against `src/config.py: SOURCE_COLUMNS` / `GT_COLUMNS` |
-| `ERROR: malformed entity_id in ...` | A source file has ids from the wrong source (e.g. `S2-` ids in a `source1` file) or an unexpected format | Confirm you passed the right file to the right source slot |
-| `ERROR: duplicate entity_id in ...` | A data refresh introduced duplicate ids | Fatal by design — investigate upstream, do not silently dedupe |
-| `ERROR: row-count invariant failed` / `ERROR: ID-set invariant failed` | A bug in cleaning logic dropped/added/changed rows | Treat as a code regression — these invariants exist to catch exactly this, not because the shipped dataset is expected to fail them |
-| `ERROR: ground truth references unknown source1_entity_id` / unknown S2/S3 ids | Mismatched file versions (ground truth built against a different Source 2/3 export) | Confirm all 4 training files are the same version/export |
-| Job fails with "missing expected input file(s)" | `--input-dir` doesn't contain the expected `train/`/`test/` subfolders with standard file names | Check the layout in `data/README.md` |
-| Local run runs out of memory | Machine has far less RAM than recommended | Test with `scripts/create_sample.py` first; run the full dataset on SageMaker (`ml.m5.4xlarge`+) instead of a laptop |
-| SageMaker job stuck `InProgress` | Instance under-provisioned for actual data volume | Check CloudWatch Logs for the current stage; scale up instance type before assuming a code bug |
+| Symptom                                                                        | Likely cause                                                                                             | Fix                                                                                                                                 |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `ERROR: schema mismatch for ...`                                               | Wrong file in the wrong split/source slot, or upstream export changed columns                            | Re-check the file's header row against `src/config.py: SOURCE_COLUMNS` / `GT_COLUMNS`                                               |
+| `ERROR: malformed entity_id in ...`                                            | A source file has ids from the wrong source (e.g. `S2-` ids in a `source1` file) or an unexpected format | Confirm you passed the right file to the right source slot                                                                          |
+| `ERROR: duplicate entity_id in ...`                                            | A data refresh introduced duplicate ids                                                                  | Fatal by design — investigate upstream, do not silently dedupe                                                                      |
+| `ERROR: row-count invariant failed` / `ERROR: ID-set invariant failed`         | A bug in cleaning logic dropped/added/changed rows                                                       | Treat as a code regression — these invariants exist to catch exactly this, not because the shipped dataset is expected to fail them |
+| `ERROR: ground truth references unknown source1_entity_id` / unknown S2/S3 ids | Mismatched file versions (ground truth built against a different Source 2/3 export)                      | Confirm all 4 training files are the same version/export                                                                            |
+| Job fails with "missing expected input file(s)"                                | `--input-dir` doesn't contain the expected `train/`/`test/` subfolders with standard file names          | Check the layout in `data/README.md`                                                                                                |
+| Local run runs out of memory                                                   | Machine has far less RAM than recommended                                                                | Test with `scripts/create_sample.py` first; run the full dataset on SageMaker (`ml.m5.4xlarge`+) instead of a laptop                |
+| SageMaker job stuck `InProgress`                                               | Instance under-provisioned for actual data volume                                                        | Check CloudWatch Logs for the current stage; scale up instance type before assuming a code bug                                      |
 
 ## 16. Next-stage handoff
 
@@ -304,7 +305,7 @@ safest implementation-oriented way" and document them here:
    uses a word-boundary-aware regex (`(?<![a-z0-9])(?:near|opp|...)(?![a-z0-9])`)
    instead — see `src/normalization.py::extract_landmark` and its tests.
 3. **`&`/legal-suffix consistency (Section 26, item 1).** `canonicalize_name`
-   expands `&` to `and` *before* tokenizing and applying the legal-suffix
+   expands `&` to `and` _before_ tokenizing and applying the legal-suffix
    map, so `"Smith & Jones Inc"` and `"Smith and Jones Incorporated"`
    canonicalize to the exact same string — verified by
    `test_ampersand_and_suffix_mapping_are_consistent`.
@@ -319,7 +320,7 @@ safest implementation-oriented way" and document them here:
    `implementation.md` Section 3/9, this implementation also reports
    `business_name_canonical + country_normalized` and
    `business_name_canonical + business_address_canonical +
-   country_normalized` collisions, all computed with bounded, capped
+country_normalized` collisions, all computed with bounded, capped
    memory usage (`MAX_COLLISION_GROUPS_REPORTED` / `MAX_SAMPLE_IDS_PER_GROUP`
    in `src/config.py`) — see `src/diagnostics.py`.
 6. **SageMaker `framework_version`.** `implementation.md` Section 15.6
@@ -333,6 +334,7 @@ safest implementation-oriented way" and document them here:
 ## What was verified locally vs. not verified
 
 **LOCAL TESTS VERIFIED:**
+
 - `python -m pytest` — all unit + integration tests pass.
 - `python -m src.preprocess --input-dir ... --output-dir ...` run
   end-to-end against a synthetic sample dataset (including an ALL-CAPS
