@@ -56,7 +56,11 @@ try:  # pragma: no cover - import shim for `python -m src.preprocess` vs SageMak
     from .normalization import (
         canonicalize_address_series,
         canonicalize_name_series,
+        classify_name_script_series,
+        extract_address_numbers_series,
+        extract_address_postal_code_series,
         extract_landmark_series,
+        make_address_sorted_tokens_series,
         normalize_address_series,
         normalize_country_series,
         normalize_name_series,
@@ -93,7 +97,11 @@ except ImportError:  # running as a plain script (e.g. inside a SageMaker contai
     from normalization import (  # type: ignore
         canonicalize_address_series,
         canonicalize_name_series,
+        classify_name_script_series,
+        extract_address_numbers_series,
+        extract_address_postal_code_series,
         extract_landmark_series,
+        make_address_sorted_tokens_series,
         normalize_address_series,
         normalize_country_series,
         normalize_name_series,
@@ -143,13 +151,19 @@ def clean_source(df: pd.DataFrame, source_key: str, name: str) -> "tuple[pd.Data
 
     out["business_address"] = df["business_address"]
     addr_normalized, addr_is_missing = normalize_address_series(df["business_address"])
+    addr_canonical = canonicalize_address_series(addr_normalized)
     out["business_address_normalized"] = addr_normalized
-    out["business_address_canonical"] = canonicalize_address_series(addr_normalized)
+    out["business_address_canonical"] = addr_canonical
     out["address_landmark"] = extract_landmark_series(df["business_address"])
+    out["address_numbers"] = extract_address_numbers_series(addr_normalized)
+    out["address_postal_code"] = extract_address_postal_code_series(addr_normalized)
+    out["address_sorted_tokens"] = make_address_sorted_tokens_series(addr_canonical)
     out["business_address_is_missing"] = addr_is_missing
 
     out["country"] = df["country"]
     out["country_normalized"] = normalize_country_series(df["country"])
+
+    out["name_script_class"] = classify_name_script_series(name_normalized)
 
     out = out[REQUIRED_OUTPUT_COLUMNS]
 
@@ -294,29 +308,6 @@ def run(
         del s1_clean, s2_clean, s3_clean
 
         report["splits"][split] = split_report
-
-        # --- Matcher Integration ---
-        try:
-            from .matching import Matcher
-            matcher = Matcher()
-            
-            s1_df = pd.read_csv(split_out / "source1_clean.tsv", sep="\t")
-            s2_df = pd.read_csv(split_out / "source2_clean.tsv", sep="\t")
-            s3_df = pd.read_csv(split_out / "source3_clean.tsv", sep="\t")
-            
-            s23_df = pd.concat([s2_df, s3_df]).reset_index(drop=True)
-            
-            pairs = matcher.score_pairs(s1_df, s23_df)
-            pairs.to_csv(split_out / "candidate_pairs.tsv", sep="\t", index=False)
-            
-            if split == TRAIN_SPLIT:
-                gt_df = pd.read_csv(split_out / "ground_truth_clean.tsv", sep="\t")
-                matcher.cross_validate(pairs, gt_df)
-                
-            report["splits"][split]["candidate_pairs_generated"] = True
-            
-        except ImportError:
-            pass
 
     report["status"] = "completed"
     report["finished_at"] = time.time()

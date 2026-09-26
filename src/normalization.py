@@ -258,3 +258,175 @@ def normalize_country_series(countries: pd.Series) -> pd.Series:
     out_series = pd.Series(out, index=countries.index).str.lower()
     out_series = out_series.str.replace(_WS_RE, " ", regex=True).str.strip()
     return out_series
+
+
+# ---------------------------------------------------------------------------
+# New derived representations (P1c additions)
+# ---------------------------------------------------------------------------
+# All four functions below are ADDITIVE views — they never modify the
+# existing normalized/canonical columns.  Each is a deterministic, pure
+# function that depends only on stdlib / already-imported modules.
+
+# Regex for digit-runs (one or more consecutive digits).
+_DIGIT_RUN_RE = re.compile(r"\d+")
+
+# Candidate postal/PIN code: standalone token that is exactly 5 or 6 digits.
+# 5 digits covers US ZIP and French postal codes.
+# 6 digits covers Indian PIN codes.
+# The token must be standalone (word-boundary) to avoid matching partial
+# strings like the "12345" inside a phone-number run "01234567890".
+_POSTAL_RE = re.compile(r"(?<!\d)(\d{5,6})(?!\d)")
+
+
+def extract_address_numbers(address_normalized: str) -> str:
+    """Return all digit-runs from the normalized address, space-joined in
+    original left-to-right order.  Preserves leading zeros (string not int).
+
+    "Shop 12, MG Road"        -> "12"
+    "Sector 17, Chandigarh"   -> "17"
+    "Plot 42, Sector 17"      -> "42 17"
+    "160017, Chandigarh"      -> "160017"
+    ""                        -> ""
+    """
+    if not address_normalized:
+        return ""
+    runs = _DIGIT_RUN_RE.findall(address_normalized)
+    return " ".join(runs)
+
+
+def extract_address_postal_code(address_normalized: str) -> str:
+    """Extract the first plausible postal / PIN / ZIP code from the
+    normalized address.  Returns the matched string (preserving leading
+    zeros) or '' if none found.
+
+    Strategy: scan left-to-right for the first standalone 5- or 6-digit
+    token.  5-digit = US ZIP / French postal; 6-digit = Indian PIN.
+    Open-set: works on any country because it relies only on digit-run
+    length, not on a country-specific format table.
+
+    "Chandigarh 160017"   -> "160017"
+    "560001 Bangalore"    -> "560001"
+    "Peoria, IL 61602"    -> "61602"
+    "1064 Newton Rd"      -> ""   (4 digits: too short)
+    ""                    -> ""
+    """
+    if not address_normalized:
+        return ""
+    match = _POSTAL_RE.search(address_normalized)
+    return match.group(1) if match else ""
+
+
+def make_address_sorted_tokens(address_canonical: str) -> str:
+    """Return the canonical address tokens in sorted (alphabetical) order,
+    space-joined.  Deterministic; handles the common case where the same
+    address has components in different order across sources.
+
+    "mg road sector 17"   -> "17 mg road sector"
+    "sector 17 mg road"   -> "17 mg road sector"   (same output)
+    ""                    -> ""
+    """
+    if not address_canonical:
+        return ""
+    return " ".join(sorted(address_canonical.split()))
+
+
+def classify_name_script(name_normalized: str) -> str:
+    """Return the dominant Unicode script class of the business name.
+
+    Uses only unicodedata (stdlib) — no external dependencies.
+    Classification is deterministic and does not modify the name.
+
+    Return values (fixed vocabulary):
+      "empty"              — name is empty or whitespace-only
+      "latin"              — all letter characters are Latin (ASCII a-z,
+                             extended Latin, etc.)
+      "devanagari"         — dominant non-Latin script is Devanagari
+                             (Hindi, Marathi, Nepali, …)
+      "tamil"              — dominant script is Tamil
+      "telugu"             — dominant script is Telugu
+      "gujarati"           — dominant script is Gujarati
+      "gurmukhi"           — dominant script is Gurmukhi (Punjabi)
+      "malayalam"          — dominant script is Malayalam
+      "non_latin"          — non-Latin script not in the above list
+      "latin_and_non_latin"— name contains BOTH Latin letters and at least
+                             one letter from a non-Latin script (mixed)
+
+    Digits, punctuation, and whitespace are ignored (not counted toward any
+    script); classification is based on letter characters only.
+    """
+    if not name_normalized or not name_normalized.strip():
+        return "empty"
+
+    # Unicode block ranges for the scripts we need to distinguish.
+    # Each tuple: (start_codepoint, end_codepoint, label)
+    _SCRIPT_RANGES = (
+        (0x0900, 0x097F, "devanagari"),
+        (0x0980, 0x09FF, "bengali"),
+        (0x0A00, 0x0A7F, "gurmukhi"),
+        (0x0A80, 0x0AFF, "gujarati"),
+        (0x0B00, 0x0B7F, "oriya"),
+        (0x0B80, 0x0BFF, "tamil"),
+        (0x0C00, 0x0C7F, "telugu"),
+        (0x0C80, 0x0CFF, "kannada"),
+        (0x0D00, 0x0D7F, "malayalam"),
+        (0x0600, 0x06FF, "arabic"),
+        (0x4E00, 0x9FFF, "cjk"),
+        (0x3040, 0x30FF, "japanese"),
+        (0xAC00, 0xD7AF, "korean"),
+    )
+
+    latin_count = 0
+    non_latin_script_counts: dict = {}
+
+    for ch in name_normalized:
+        cat = unicodedata.category(ch)
+        if not cat.startswith("L"):
+            # Skip digits (Nd), punctuation (P*), separators (Z*), etc.
+            continue
+        cp = ord(ch)
+        # Latin: Basic Latin letters + Latin Extended blocks
+        if (0x0041 <= cp <= 0x007A) or (0x00C0 <= cp <= 0x024F) or (0x1E00 <= cp <= 0x1EFF):
+            latin_count += 1
+        else:
+            script = "non_latin"
+            for start, end, name in _SCRIPT_RANGES:
+                if start <= cp <= end:
+                    script = name
+                    break
+            non_latin_script_counts[script] = non_latin_script_counts.get(script, 0) + 1
+
+    total_letters = latin_count + sum(non_latin_script_counts.values())
+    if total_letters == 0:
+        return "empty"
+
+    if non_latin_script_counts and latin_count > 0:
+        return "latin_and_non_latin"
+    if latin_count > 0:
+        return "latin"
+    # Pure non-Latin: return the dominant script name
+    dominant = max(non_latin_script_counts, key=non_latin_script_counts.get)
+    return dominant
+
+
+# ---------------------------------------------------------------------------
+# Vectorized (bulk) wrappers for the new derived-representation functions
+# ---------------------------------------------------------------------------
+
+def extract_address_numbers_series(addresses_normalized: pd.Series) -> pd.Series:
+    """Vectorized equivalent of extract_address_numbers over a column."""
+    return addresses_normalized.fillna("").map(extract_address_numbers)
+
+
+def extract_address_postal_code_series(addresses_normalized: pd.Series) -> pd.Series:
+    """Vectorized equivalent of extract_address_postal_code over a column."""
+    return addresses_normalized.fillna("").map(extract_address_postal_code)
+
+
+def make_address_sorted_tokens_series(addresses_canonical: pd.Series) -> pd.Series:
+    """Vectorized equivalent of make_address_sorted_tokens over a column."""
+    return addresses_canonical.fillna("").map(make_address_sorted_tokens)
+
+
+def classify_name_script_series(names_normalized: pd.Series) -> pd.Series:
+    """Vectorized equivalent of classify_name_script over a column."""
+    return names_normalized.fillna("").map(classify_name_script)
