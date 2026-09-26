@@ -1,0 +1,142 @@
+{
+  "started_at": 1790420296.712512,
+  "splits": {
+    "train": {
+      "source1": {
+        "input_rows": 3,
+        "output_rows": 3,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 2,
+        "country_distribution": {
+          "US": 3
+        },
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "source2": {
+        "input_rows": 1,
+        "output_rows": 1,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 0,
+        "country_distribution": {
+          "US": 1
+        },
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "source3": {
+        "input_rows": 0,
+        "output_rows": 0,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 0,
+        "country_distribution": {},
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "canonicalization_collisions": {
+        "business_name_canonical": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        },
+        "business_name_canonical__country_normalized": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        },
+        "business_name_canonical__business_address_canonical__country_normalized": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        }
+      },
+      "ground_truth": {
+        "rows": 1,
+        "zero_match_rows": 0,
+        "mean_matches_per_entity": 1.0,
+        "max_matches_for_one_entity": 1,
+        "total_s2_references": 1,
+        "total_s3_references": 0
+      },
+      "candidate_pairs_generated": true
+    },
+    "test": {
+      "source1": {
+        "input_rows": 3,
+        "output_rows": 3,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 2,
+        "country_distribution": {
+          "US": 3
+        },
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "source2": {
+        "input_rows": 1,
+        "output_rows": 1,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 0,
+        "country_distribution": {
+          "US": 1
+        },
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "source3": {
+        "input_rows": 0,
+        "output_rows": 0,
+        "id_set_equal": true,
+        "duplicate_entity_id_count": 0,
+        "name_missing_count": 0,
+        "address_missing_count": 0,
+        "country_distribution": {},
+        "exact_duplicate_rows": {
+          "exact_duplicate_row_count": 0,
+          "exact_duplicate_group_count": 0
+        }
+      },
+      "canonicalization_collisions": {
+        "business_name_canonical": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        },
+        "business_name_canonical__country_normalized": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        },
+        "business_name_canonical__business_address_canonical__country_normalized": {
+          "group_count": 0,
+          "rows_involved": 0,
+          "max_group_size": 0
+        }
+      },
+      "candidate_pairs_generated": true
+    }
+  },
+  "status": "completed",
+  "finished_at": 1790420298.6195335,
+  "duration_seconds": 1.9070215225219727
+}

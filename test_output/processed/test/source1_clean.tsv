@@ -1,0 +1,4 @@
+entity_id	business_name	business_name_normalized	business_name_canonical	business_address	business_address_normalized	business_address_canonical	address_landmark	country	country_normalized	business_name_is_missing	business_address_is_missing
+S1-100	Acme Corp	acme corp	acme corporation	123 Main St	123 main st	123 main street		US	us	False	False
+S1-999	RandomGibberishText	randomgibberishtext	randomgibberishtext					US	us	False	True
+S1-888	Valid Company Name	valid company name	valid company name					US	us	False	True
