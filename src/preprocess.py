@@ -295,6 +295,29 @@ def run(
 
         report["splits"][split] = split_report
 
+        # --- Matcher Integration ---
+        try:
+            from .matching import Matcher
+            matcher = Matcher()
+            
+            s1_df = pd.read_csv(split_out / "source1_clean.tsv", sep="\t")
+            s2_df = pd.read_csv(split_out / "source2_clean.tsv", sep="\t")
+            s3_df = pd.read_csv(split_out / "source3_clean.tsv", sep="\t")
+            
+            s23_df = pd.concat([s2_df, s3_df]).reset_index(drop=True)
+            
+            pairs = matcher.score_pairs(s1_df, s23_df)
+            pairs.to_csv(split_out / "candidate_pairs.tsv", sep="\t", index=False)
+            
+            if split == TRAIN_SPLIT:
+                gt_df = pd.read_csv(split_out / "ground_truth_clean.tsv", sep="\t")
+                matcher.cross_validate(pairs, gt_df)
+                
+            report["splits"][split]["candidate_pairs_generated"] = True
+            
+        except ImportError:
+            pass
+
     report["status"] = "completed"
     report["finished_at"] = time.time()
     report["duration_seconds"] = report["finished_at"] - report["started_at"]
